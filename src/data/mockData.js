@@ -1,7 +1,7 @@
 export const STUDIO_INFO = {
   name: "Pixel Production",
   brandTitle: "PIXEL PRODUCTION",
-  owner: "Akash",
+  founder: "Akash",
   tagline: "Your story, told like cinema.",
   subtext: "Pixel Production crafts cinematic videos with feeling—for brands, people, and unrepeatable moments. Based in Karaikudi, delivering worldwide.",
   location: "Karaikudi",
@@ -245,7 +245,7 @@ export const PACKAGES = [
 ];
 
 export const CREW_MEMBERS = [
-  { id: "crew-1", name: "Akash", role: "Owner & Creative Director", avatar: "AK", color: "bg-amber-600" },
+  { id: "crew-1", name: "Akash", role: "Founder & Creative Director", avatar: "AK", color: "bg-amber-600" },
   { id: "crew-2", name: "Siddharth Raman", role: "Director of Photography", avatar: "SR", color: "bg-yellow-600" },
   { id: "crew-3", name: "Priya Mohan", role: "Lead Video Editor", avatar: "PM", color: "bg-emerald-600" },
   { id: "crew-4", name: "Karthik Raja", role: "Senior Colorist", avatar: "KR", color: "bg-cyan-600" },
