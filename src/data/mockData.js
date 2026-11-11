@@ -8,7 +8,7 @@ export const STUDIO_INFO = {
     email: "hello@pixelcinema.in",
     phone: "+91 93423 36009",
     rawPhone: "9342336009",
-    address: "Pixel Video Studio, Race Course Road, Karaikudi, Tamil Nadu 641018",
+    address: "Pixel Video Studio, Sekkalai Road, Karaikudi, Tamil Nadu 630001",
     whatsapp: "https://wa.me/919342336009",
     instagram: "@pixelcinema.co",
     vimeo: "pixelcinema",
@@ -127,7 +127,7 @@ export const PORTFOLIO_PROJECTS = [
     aspectRatio: "2.39:1",
     thumbnail: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200&auto=format&fit=crop",
     videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
-    tagline: "High-speed pursuit commercial video shot at Karaikudi Kari Motor Speedway",
+    tagline: "High-speed pursuit commercial video shot at Karaikudi Motor Park",
     views: "890K+",
     director: "Arun Kumar",
     cinematographer: "Siddharth Raman",
@@ -278,7 +278,7 @@ export const INITIAL_TASKS = [
     description: "Finalize precision storyboard for the night drift sequence with the stunt driver team.",
     checklist: [
       { text: "Review script beats with brand CMO", done: true },
-      { text: "Lock track access timing with Kari Speedway", done: true },
+      { text: "Lock track access timing with Motor Park team", done: true },
       { text: "Issue safety protocol signoffs", done: false }
     ]
   },

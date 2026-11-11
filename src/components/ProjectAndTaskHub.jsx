@@ -332,7 +332,7 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
                   Pixel Cinema Studio
                 </h3>
                 <p className="text-sm text-[#a1a1aa] leading-relaxed mb-6">
-                  Based in Race Course, KARAIKUDI. We handle everything from concept development and storyboard animatics to Hollywood-grade color finishing.
+                  Based in Sekkalai Road, KARAIKUDI. We handle everything from concept development and storyboard animatics to Hollywood-grade color finishing.
                 </p>
 
                 <div className="space-y-4 text-sm text-[#d4d4d8]">

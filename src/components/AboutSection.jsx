@@ -53,7 +53,7 @@ export default function AboutSection() {
       name: "DJI Inspire 3 Full-Frame 8K Drone",
       type: "Aerial Cinema System",
       specs: ["Full-Frame 8K ProRes RAW", "Waypoints Pro Repeatable Shots", "Omnidirectional Obstacle Sensing", "Centimeter-Level RTK Positioning"],
-      whyWeShoot: "Allows seamless cinematic fly-throughs across architectural spaces, coastal Kerala backwaters, and Kari Motor Speedway track runs.",
+      whyWeShoot: "Allows seamless cinematic fly-throughs across architectural spaces, Chettinad palace courtyards, and scenic rural landscapes of the Sivaganga district.",
       badge: "Aerial Unit"
     },
     "Aputure Light Storm Array": {

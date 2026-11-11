@@ -21,7 +21,7 @@ export default function TestimonialsSection() {
       stars: 5
     },
     {
-      quote: "Their track-side precision video shoot at Kari Motor Speedway was extraordinary. They understood high-speed shutter pacing, drone chasing, and master color grading from day one.",
+      quote: "Their track-side precision video shoot was extraordinary. They understood high-speed shutter pacing, drone chasing, and master color grading from day one.",
       author: "Devendra Rathore",
       role: "Head of Marketing, Zenith Automotive",
       location: "Mumbai",
