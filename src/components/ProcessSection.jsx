@@ -46,17 +46,17 @@ export default function ProcessSection() {
               THE WORKFLOW
             </span>
           </div>
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-white tracking-tight leading-[1.1] mb-6">
+          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-serif font-bold text-white tracking-tight leading-[1.1] mb-6">
             How we translate ideas into{' '}
             <span className="italic cinema-gold-text">cinematic videos.</span>
           </h2>
           <p className="text-base sm:text-lg text-[#a1a1aa] leading-relaxed">
-            Every Pixel project follows a structured, transparent production pipeline. You stay informed at every milestone—from initial script beats to the final frame render.
+            Every Pixel Production project follows a structured, transparent production pipeline. You stay informed at every milestone—from initial script beats to the final frame render.
           </p>
         </div>
 
         {/* 5-Step Process Timeline */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 relative">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5 sm:gap-6 relative">
           {steps.map((step, idx) => {
             const Icon = step.icon;
             return (

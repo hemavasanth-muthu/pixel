@@ -243,7 +243,7 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
     const dataStr = 'data:text/json;charset=utf-8,' + encodeURIComponent(JSON.stringify(tasks, null, 2));
     const downloadAnchor = document.createElement('a');
     downloadAnchor.setAttribute('href', dataStr);
-    downloadAnchor.setAttribute('download', `pixel-cinema-production-tasks-${new Date().toISOString().split('T')[0]}.json`);
+    downloadAnchor.setAttribute('download', `pixel-production-tasks-${new Date().toISOString().split('T')[0]}.json`);
     document.body.appendChild(downloadAnchor);
     downloadAnchor.click();
     downloadAnchor.remove();
@@ -293,10 +293,10 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
           </p>
 
           {/* Dual Tab Switcher */}
-          <div className="mt-8 inline-flex p-1.5 rounded-full bg-[#14141c] border border-[#23232c] shadow-xl">
+          <div className="mt-8 inline-flex flex-wrap sm:flex-nowrap p-1.5 rounded-2xl sm:rounded-full bg-[#14141c] border border-[#23232c] shadow-xl max-w-full justify-center gap-1.5">
             <button
               onClick={() => setActiveTab('start-project')}
-              className={`flex items-center gap-2 px-6 py-2.5 rounded-full text-xs sm:text-sm font-bold transition-all ${
+              className={`flex items-center justify-center gap-2 px-5 sm:px-6 py-2.5 rounded-xl sm:rounded-full text-xs sm:text-sm font-bold transition-all ${
                 activeTab === 'start-project'
                   ? 'bg-[#F5B726] text-black shadow-md shadow-[#F5B726]/20'
                   : 'text-[#a1a1aa] hover:text-white'
@@ -307,7 +307,7 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
             </button>
             <button
               onClick={() => setActiveTab('task-board')}
-              className={`flex items-center gap-2 px-6 py-2.5 rounded-full text-xs sm:text-sm font-bold transition-all ${
+              className={`flex items-center justify-center gap-2 px-5 sm:px-6 py-2.5 rounded-xl sm:rounded-full text-xs sm:text-sm font-bold transition-all ${
                 activeTab === 'task-board'
                   ? 'bg-[#F5B726] text-black shadow-md shadow-[#F5B726]/20'
                   : 'text-[#a1a1aa] hover:text-white'
@@ -600,10 +600,10 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
                 </div>
 
                 {/* View Switcher: Kanban / Crew Workload / Timeline */}
-                <div className="flex items-center gap-1 bg-[#181822] p-1 rounded-full border border-[#2a2a38]">
+                <div className="flex flex-wrap items-center gap-1 bg-[#181822] p-1 rounded-2xl sm:rounded-full border border-[#2a2a38]">
                   <button
                     onClick={() => setBoardViewMode('kanban')}
-                    className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-bold transition-all ${
+                    className={`flex items-center gap-1.5 px-3 sm:px-3.5 py-1.5 rounded-full text-xs font-bold transition-all ${
                       boardViewMode === 'kanban' ? 'bg-[#F5B726] text-black shadow-sm' : 'text-[#a1a1aa] hover:text-white'
                     }`}
                   >
@@ -612,7 +612,7 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
                   </button>
                   <button
                     onClick={() => setBoardViewMode('crew')}
-                    className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-bold transition-all ${
+                    className={`flex items-center gap-1.5 px-3 sm:px-3.5 py-1.5 rounded-full text-xs font-bold transition-all ${
                       boardViewMode === 'crew' ? 'bg-[#F5B726] text-black shadow-sm' : 'text-[#a1a1aa] hover:text-white'
                     }`}
                   >
@@ -621,7 +621,7 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
                   </button>
                   <button
                     onClick={() => setBoardViewMode('timeline')}
-                    className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-bold transition-all ${
+                    className={`flex items-center gap-1.5 px-3 sm:px-3.5 py-1.5 rounded-full text-xs font-bold transition-all ${
                       boardViewMode === 'timeline' ? 'bg-[#F5B726] text-black shadow-sm' : 'text-[#a1a1aa] hover:text-white'
                     }`}
                   >
@@ -632,10 +632,10 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
               </div>
 
               {/* Bottom Control Row: Search, Project Filter, Crew Filter, Sound, Export, Add Task */}
-              <div className="flex flex-wrap items-center justify-between gap-4 pt-4 border-t border-white/5">
-                <div className="flex flex-wrap items-center gap-3">
+              <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4 pt-4 border-t border-white/5">
+                <div className="flex flex-wrap items-center gap-2.5 sm:gap-3">
                   {/* Search */}
-                  <div className="relative min-w-[200px]">
+                  <div className="relative w-full sm:w-auto min-w-[180px]">
                     <Search className="w-4 h-4 text-[#71717a] absolute left-3.5 top-1/2 -translate-y-1/2" />
                     <input
                       type="text"
@@ -679,7 +679,7 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
                   </div>
                 </div>
 
-                <div className="flex items-center gap-2.5">
+                <div className="flex items-center justify-end gap-2.5">
                   {/* Sound FX Toggle */}
                   <button
                     onClick={() => setSoundEnabled(!soundEnabled)}
@@ -723,7 +723,7 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
                   return (
                     <div
                       key={stage}
-                      className="rounded-3xl bg-[#111116] border border-[#23232c] p-4 flex flex-col min-h-[640px] shadow-lg"
+                      className="rounded-3xl bg-[#111116] border border-[#23232c] p-4 flex flex-col min-h-[340px] lg:min-h-[640px] shadow-lg"
                     >
                       {/* Stage Header */}
                       <div className="flex items-center justify-between pb-3 mb-3 border-b border-white/5">
@@ -1020,8 +1020,8 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
 
         {/* MODAL: ADD / ASSIGN NEW TASK */}
         {isAddTaskModalOpen && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-in fade-in duration-200">
-            <div className="relative w-full max-w-xl bg-[#121217] border border-[#2b2b38] rounded-3xl p-6 sm:p-8 shadow-2xl">
+          <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/85 backdrop-blur-md animate-in fade-in duration-200">
+            <div className="relative w-full max-w-xl bg-[#121217] border border-[#2b2b38] rounded-2xl sm:rounded-3xl p-5 sm:p-8 shadow-2xl max-h-[90vh] overflow-y-auto">
               <div className="flex items-center justify-between pb-4 border-b border-[#23232c] mb-6">
                 <div className="flex items-center gap-2.5">
                   <Kanban className="w-5 h-5 text-[#F5B726]" />
@@ -1048,7 +1048,7 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
                   />
                 </div>
 
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 sm:gap-4">
                   <div>
                     <label className="block text-[#a1a1aa] font-bold uppercase mb-1">Project Name</label>
                     <input
@@ -1073,7 +1073,7 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
                   </div>
                 </div>
 
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 sm:gap-4">
                   <div>
                     <label className="block text-[#a1a1aa] font-bold uppercase mb-1">Assign Crew Member</label>
                     <select

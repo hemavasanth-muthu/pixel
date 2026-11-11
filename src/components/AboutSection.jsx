@@ -182,8 +182,8 @@ export default function AboutSection() {
 
       {/* GEAR VAULT INSPECTOR MODAL */}
       {selectedGear && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-in fade-in duration-200">
-          <div className="relative w-full max-w-xl bg-[#111116] border border-[#2b2b38] rounded-3xl p-6 sm:p-8 shadow-2xl">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/85 backdrop-blur-md animate-in fade-in duration-200">
+          <div className="relative w-full max-w-xl bg-[#111116] border border-[#2b2b38] rounded-2xl sm:rounded-3xl p-5 sm:p-8 shadow-2xl max-h-[90vh] overflow-y-auto">
             <div className="flex items-center justify-between pb-4 border-b border-[#23232c] mb-6">
               <div className="flex items-center gap-2.5">
                 <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-black bg-[#F5B726] px-2.5 py-0.5 rounded-full">
@@ -199,13 +199,13 @@ export default function AboutSection() {
               </button>
             </div>
 
-            <h3 className="text-2xl font-serif font-bold text-white mb-4">
+            <h3 className="text-xl sm:text-2xl font-serif font-bold text-white mb-4">
               {selectedGear.name}
             </h3>
 
             <div className="mb-6 p-4 rounded-2xl bg-[#161620] border border-[#252535]">
               <span className="text-[10px] uppercase font-bold tracking-wider text-[#a1a1aa] block mb-2">
-                Why Pixel Shoots With This
+                Why Pixel Production Shoots With This
               </span>
               <p className="text-xs text-[#d4d4d8] leading-relaxed">
                 {selectedGear.whyWeShoot}
@@ -216,7 +216,7 @@ export default function AboutSection() {
               <span className="text-[10px] uppercase font-bold tracking-wider text-[#71717a] block mb-3">
                 Technical Specifications &amp; Sensor Architecture
               </span>
-              <div className="grid grid-cols-2 gap-2 text-xs">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
                 {selectedGear.specs.map((sp, idx) => (
                   <div key={idx} className="flex items-center gap-2 p-2.5 rounded-xl bg-[#1a1a24] text-[#e4e4e7]">
                     <CheckCircle className="w-3.5 h-3.5 text-[#F5B726] shrink-0" />
@@ -226,13 +226,13 @@ export default function AboutSection() {
               </div>
             </div>
 
-            <div className="mt-8 pt-4 border-t border-white/5 flex items-center justify-between">
+            <div className="mt-8 pt-4 border-t border-white/5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
               <span className="text-[11px] text-[#71717a]">
                 Available at Pixel Production Vault · Karaikudi
               </span>
               <button
                 onClick={() => setSelectedGear(null)}
-                className="px-5 py-2 rounded-full text-xs font-bold text-black bg-[#F5B726] hover:bg-[#FED40E] transition-all"
+                className="w-full sm:w-auto px-5 py-2 rounded-full text-xs font-bold text-black bg-[#F5B726] hover:bg-[#FED40E] transition-all"
               >
                 Close Inspector
               </button>

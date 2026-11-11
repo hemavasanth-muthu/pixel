@@ -62,7 +62,7 @@ export default function PackagesSection({ onSelectPackage }) {
     <section id="packages" className="py-24 sm:py-32 bg-[#09090b] relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 sm:mb-20">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 sm:mb-20">
           <div>
             <div className="inline-flex items-center gap-3 mb-4">
               <span className="w-8 h-[2px] bg-[#F5B726]" />
@@ -70,7 +70,7 @@ export default function PackagesSection({ onSelectPackage }) {
                 INVESTMENT &amp; PACKAGES
               </span>
             </div>
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-white tracking-tight">
+            <h2 className="text-3xl sm:text-5xl lg:text-6xl font-serif font-bold text-white tracking-tight">
               Transparent tiers for{' '}
               <br className="hidden sm:block" />
               <span className="italic cinema-gold-text">uncompromised video.</span>
@@ -94,7 +94,7 @@ export default function PackagesSection({ onSelectPackage }) {
             <div className="flex items-center bg-[#14141a] p-1 rounded-full border border-[#23232c]">
               <button
                 onClick={() => setCurrency('INR')}
-                className={`px-4 py-1.5 rounded-full text-xs font-bold transition-all ${
+                className={`px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-bold transition-all ${
                   currency === 'INR'
                     ? 'bg-[#F5B726] text-black shadow-sm'
                     : 'text-[#a1a1aa] hover:text-white'
@@ -104,7 +104,7 @@ export default function PackagesSection({ onSelectPackage }) {
               </button>
               <button
                 onClick={() => setCurrency('USD')}
-                className={`px-4 py-1.5 rounded-full text-xs font-bold transition-all ${
+                className={`px-3.5 sm:px-4 py-1.5 rounded-full text-xs font-bold transition-all ${
                   currency === 'USD'
                     ? 'bg-[#F5B726] text-black shadow-sm'
                     : 'text-[#a1a1aa] hover:text-white'
@@ -118,20 +118,20 @@ export default function PackagesSection({ onSelectPackage }) {
 
         {/* INTERACTIVE CUSTOM ESTIMATE CALCULATOR */}
         {showCalculator && (
-          <div className="mb-16 p-8 sm:p-10 rounded-3xl bg-gradient-to-br from-[#161620] via-[#121217] to-[#161620] border-2 border-[#F5B726]/50 shadow-2xl animate-in fade-in slide-in-from-top-4 duration-300">
-            <div className="flex flex-col lg:flex-row lg:items-center justify-between pb-8 mb-8 border-b border-white/10 gap-6">
+          <div className="mb-16 p-5 sm:p-10 rounded-2xl sm:rounded-3xl bg-gradient-to-br from-[#161620] via-[#121217] to-[#161620] border-2 border-[#F5B726]/50 shadow-2xl animate-in fade-in slide-in-from-top-4 duration-300">
+            <div className="flex flex-col lg:flex-row lg:items-center justify-between pb-6 sm:pb-8 mb-6 sm:mb-8 border-b border-white/10 gap-4 sm:gap-6">
               <div>
                 <span className="text-xs font-mono font-bold uppercase tracking-wider text-[#F5B726] flex items-center gap-1.5 mb-2">
                   <Sliders className="w-4 h-4" />
                   Interactive Video Scope Builder
                 </span>
-                <h3 className="text-2xl sm:text-3xl font-serif font-bold text-white">
+                <h3 className="text-xl sm:text-3xl font-serif font-bold text-white">
                   Estimate Your Custom Video Production
                 </h3>
               </div>
-              <div className="flex items-baseline gap-3 p-4 rounded-2xl bg-[#1c1c28] border border-[#2d2d3e]">
-                <span className="text-xs text-[#a1a1aa] uppercase font-bold">Estimated Investment:</span>
-                <span className="text-3xl font-serif font-bold text-[#F5B726]">
+              <div className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-3 p-3.5 sm:p-4 rounded-2xl bg-[#1c1c28] border border-[#2d2d3e]">
+                <span className="text-[10px] sm:text-xs text-[#a1a1aa] uppercase font-bold">Estimated Investment:</span>
+                <span className="text-2xl sm:text-3xl font-serif font-bold text-[#F5B726]">
                   {currency === 'INR' ? calculatedEstimate.inr : calculatedEstimate.usd}
                 </span>
               </div>
@@ -272,7 +272,7 @@ export default function PackagesSection({ onSelectPackage }) {
             return (
               <div
                 key={pkg.id}
-                className={`relative rounded-3xl p-8 sm:p-10 flex flex-col justify-between transition-all duration-300 ${
+                className={`relative rounded-3xl p-6 sm:p-10 flex flex-col justify-between transition-all duration-300 ${
                   isSignature
                     ? 'bg-gradient-to-b from-[#181822] to-[#121217] border-2 border-[#F5B726] shadow-[0_0_40px_rgba(245,183,38,0.2)] lg:-translate-y-3'
                     : 'bg-[#121217] border border-[#23232c] hover:border-[#383848]'
@@ -280,7 +280,7 @@ export default function PackagesSection({ onSelectPackage }) {
               >
                 {/* Popular badge */}
                 {isSignature && (
-                  <div className="absolute -top-3.5 left-1/2 -translate-x-1/2">
+                  <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 whitespace-nowrap">
                     <span className="inline-flex items-center gap-1.5 px-4 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider bg-[#F5B726] text-black shadow-md">
                       <Sparkles className="w-3.5 h-3.5" />
                       {pkg.badge}

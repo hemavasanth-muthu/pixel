@@ -40,7 +40,7 @@ export default function TestimonialsSection() {
               CLIENT TESTIMONIALS
             </span>
           </div>
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-white tracking-tight leading-[1.1]">
+          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-serif font-bold text-white tracking-tight leading-[1.1]">
             Trusted by creators,{' '}
             <br className="hidden sm:block" />
             <span className="italic cinema-gold-text">founders &amp; families.</span>
@@ -48,7 +48,7 @@ export default function TestimonialsSection() {
         </div>
 
         {/* Testimonials Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 mb-20 sm:mb-24">
           {testimonials.map((t, idx) => (
             <div
               key={idx}

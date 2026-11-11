@@ -21,16 +21,16 @@ export default function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-16 lg:py-24">
         <div className="max-w-2xl lg:max-w-3xl">
           {/* Brand & Location pill badge */}
-          <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-[#14141c]/90 border border-[#F5B726]/40 backdrop-blur-md mb-6 shadow-lg shadow-[#F5B726]/10 animate-in fade-in slide-in-from-bottom-2 duration-700">
-            <span className="w-2 h-2 rounded-full bg-[#F5B726] animate-pulse" />
-            <span className="text-xs sm:text-sm font-bold tracking-[0.25em] text-[#F5B726] uppercase">
+          <div className="inline-flex items-center gap-2 sm:gap-3 px-3.5 sm:px-4 py-1.5 sm:py-2 rounded-full bg-[#14141c]/90 border border-[#F5B726]/40 backdrop-blur-md mb-6 shadow-lg shadow-[#F5B726]/10 animate-in fade-in slide-in-from-bottom-2 duration-700 max-w-full">
+            <span className="w-2 h-2 rounded-full bg-[#F5B726] animate-pulse shrink-0" />
+            <span className="text-[10px] sm:text-xs font-bold tracking-[0.2em] sm:tracking-[0.25em] text-[#F5B726] uppercase truncate">
               PIXEL PRODUCTION &nbsp;·&nbsp; KARAIKUDI &nbsp;·&nbsp; WORLDWIDE
             </span>
           </div>
 
           {/* Main Headline with Prominent Studio Brand */}
-          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-serif font-bold text-white tracking-tight leading-[1.05] mb-6">
-            <span className="block text-2xl sm:text-3xl md:text-4xl font-sans font-black tracking-[0.2em] text-[#F5B726] uppercase mb-3 cinema-gold-text">
+          <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-serif font-bold text-white tracking-tight leading-[1.08] sm:leading-[1.05] mb-6">
+            <span className="block text-xl sm:text-3xl md:text-4xl font-sans font-black tracking-wider sm:tracking-[0.2em] text-[#F5B726] uppercase mb-2 sm:mb-3 cinema-gold-text">
               PIXEL PRODUCTION
             </span>
             Your story,
@@ -42,28 +42,28 @@ export default function Hero() {
           </h1>
 
           {/* Subtext description */}
-          <p className="text-lg sm:text-xl text-[#d4d4d8] font-normal leading-relaxed max-w-xl mb-10">
+          <p className="text-base sm:text-lg md:text-xl text-[#d4d4d8] font-normal leading-relaxed max-w-xl mb-8 sm:mb-10">
             Pixel Production crafts cinematic videos with feeling—for brands, people, and moments that
             deserve to be remembered.
           </p>
 
           {/* Direct Production Action Buttons */}
-          <div className="flex flex-wrap items-center gap-4 sm:gap-5 mb-16 sm:mb-20">
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5 sm:gap-5 mb-12 sm:mb-16">
             <a
               href="#work"
-              className="inline-flex items-center gap-3 px-8 py-4 rounded-full text-base font-bold text-black bg-[#F5B726] hover:bg-[#FED40E] transition-all transform hover:-translate-y-0.5 shadow-lg shadow-[#F5B726]/20 hover:shadow-[#F5B726]/40 active:translate-y-0"
+              className="inline-flex items-center justify-center gap-3 px-7 sm:px-8 py-3.5 sm:py-4 rounded-full text-sm sm:text-base font-bold text-black bg-[#F5B726] hover:bg-[#FED40E] transition-all transform hover:-translate-y-0.5 shadow-lg shadow-[#F5B726]/20 hover:shadow-[#F5B726]/40 active:translate-y-0"
             >
               <span>Explore our videos</span>
-              <ArrowRight className="w-5 h-5" />
+              <ArrowRight className="w-4 sm:w-5 h-4 sm:h-5" />
             </a>
 
             <a
               href={STUDIO_INFO.contact.whatsapp}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 px-7 py-4 rounded-full text-base font-semibold text-emerald-300 bg-[#121216]/90 hover:bg-[#15231c] border border-emerald-500/40 hover:border-emerald-400 transition-all backdrop-blur-sm group shadow-md"
+              className="inline-flex items-center justify-center gap-3 px-6 sm:px-7 py-3.5 sm:py-4 rounded-full text-sm sm:text-base font-semibold text-emerald-300 bg-[#121216]/90 hover:bg-[#15231c] border border-emerald-500/40 hover:border-emerald-400 transition-all backdrop-blur-sm group shadow-md"
             >
-              <div className="w-8 h-8 rounded-full border border-emerald-500/40 flex items-center justify-center group-hover:bg-emerald-500/20 transition-colors">
+              <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full border border-emerald-500/40 flex items-center justify-center group-hover:bg-emerald-500/20 transition-colors shrink-0">
                 <span className="text-sm">💬</span>
               </div>
               <span>WhatsApp: +91 93423 36009</span>
@@ -71,13 +71,13 @@ export default function Hero() {
           </div>
 
           {/* Bottom Stats and Credibility Row */}
-          <div className="grid grid-cols-3 gap-6 sm:gap-10 border-t border-white/10 pt-8 max-w-xl">
+          <div className="grid grid-cols-3 gap-2 sm:gap-8 border-t border-white/10 pt-6 sm:pt-8 max-w-xl">
             {STUDIO_INFO.stats.map((stat, i) => (
               <div key={i} className="flex flex-col">
-                <span className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-[#F5B726] tracking-tight">
+                <span className="text-2xl sm:text-4xl lg:text-5xl font-serif font-bold text-[#F5B726] tracking-tight">
                   {stat.value}
                 </span>
-                <span className="text-[10px] sm:text-xs font-semibold uppercase tracking-[0.2em] text-[#a1a1aa] mt-1.5">
+                <span className="text-[9px] sm:text-xs font-semibold uppercase tracking-wider sm:tracking-[0.2em] text-[#a1a1aa] mt-1 sm:mt-1.5 leading-tight">
                   {stat.label}
                 </span>
               </div>

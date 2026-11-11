@@ -32,19 +32,19 @@ export default function Navbar({ onOpenTaskBoard, onStartProject }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-3.5 group">
-            <div className="relative h-11 w-auto flex items-center justify-center">
+          <a href="#" className="flex items-center gap-2.5 sm:gap-3.5 group">
+            <div className="relative h-9 sm:h-11 w-auto flex items-center justify-center shrink-0">
               <img
                 src="/pixel-logo.png"
                 alt="Pixel Production Logo"
-                className="h-10 w-auto object-contain filter drop-shadow-[0_2px_12px_rgba(245,183,38,0.5)] group-hover:scale-105 transition-transform"
+                className="h-8 sm:h-10 w-auto object-contain filter drop-shadow-[0_2px_12px_rgba(245,183,38,0.5)] group-hover:scale-105 transition-transform"
               />
             </div>
             <div className="flex flex-col">
-              <span className="text-xl sm:text-2xl font-black tracking-widest text-white font-sans group-hover:text-[#F5B726] transition-colors leading-none flex items-center gap-1.5">
+              <span className="text-base sm:text-2xl font-black tracking-wider sm:tracking-widest text-white font-sans group-hover:text-[#F5B726] transition-colors leading-none flex items-center gap-1">
                 PIXEL <span className="cinema-gold-text">PRODUCTION</span>
               </span>
-              <span className="text-[9px] uppercase tracking-[0.25em] text-[#a1a1aa] font-semibold mt-1">
+              <span className="text-[8px] sm:text-[9px] uppercase tracking-[0.2em] sm:tracking-[0.25em] text-[#a1a1aa] font-semibold mt-0.5 sm:mt-1">
                 Cinematic Studio · Karaikudi
               </span>
             </div>
@@ -127,6 +127,13 @@ export default function Navbar({ onOpenTaskBoard, onStartProject }) {
               </a>
             ))}
             <div className="pt-2 flex flex-col gap-2.5">
+              <a
+                href="tel:+919342336009"
+                className="w-full flex items-center justify-center gap-2 py-2.5 rounded-xl text-xs font-bold text-emerald-400 bg-emerald-950/40 border border-emerald-500/40"
+              >
+                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                <span>Direct Call: +91 93423 36009</span>
+              </a>
               <button
                 onClick={() => {
                   setMobileMenuOpen(false);

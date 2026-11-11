@@ -40,7 +40,7 @@ export default function Footer() {
               Explore
             </h4>
             <ul className="space-y-2.5">
-              <li><a href="#about" className="hover:text-[#F5B726] transition-colors">About Pixel</a></li>
+              <li><a href="#about" className="hover:text-[#F5B726] transition-colors">About Pixel Production</a></li>
               <li><a href="#services" className="hover:text-[#F5B726] transition-colors">Video Services</a></li>
               <li><a href="#work" className="hover:text-[#F5B726] transition-colors">Featured Videos</a></li>
               <li><a href="#process" className="hover:text-[#F5B726] transition-colors">The 5-Step Process</a></li>

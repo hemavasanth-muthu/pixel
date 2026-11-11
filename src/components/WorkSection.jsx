@@ -25,24 +25,24 @@ export default function WorkSection({ onStartProject }) {
                 FEATURED VIDEOS
               </span>
             </div>
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-white tracking-tight">
+            <h2 className="text-3xl sm:text-5xl lg:text-6xl font-serif font-bold text-white tracking-tight">
               Selected videos &amp;{' '}
               <br className="hidden sm:block" />
               <span className="italic cinema-gold-text">living stories.</span>
             </h2>
           </div>
-          <p className="mt-4 md:mt-0 text-base text-[#a1a1aa] max-w-md">
+          <p className="mt-4 md:mt-0 text-sm sm:text-base text-[#a1a1aa] max-w-md">
             Click on any video to watch our 4K color science, original sound scores, and anamorphic camera work in full high definition.
           </p>
         </div>
 
         {/* Filter Tabs */}
-        <div className="flex flex-wrap items-center gap-2.5 mb-12 border-b border-white/10 pb-6">
+        <div className="flex flex-wrap items-center gap-2 sm:gap-2.5 mb-10 sm:mb-12 border-b border-white/10 pb-6">
           {categories.map((category) => (
             <button
               key={category}
               onClick={() => setActiveCategory(category)}
-              className={`px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider transition-all ${
+              className={`px-3.5 py-1.5 sm:px-5 sm:py-2.5 rounded-full text-[11px] sm:text-xs font-bold uppercase tracking-wider transition-all ${
                 activeCategory === category
                   ? 'bg-[#F5B726] text-black shadow-md shadow-[#F5B726]/20'
                   : 'bg-[#14141a] text-[#a1a1aa] hover:text-white hover:bg-[#1f1f26] border border-[#23232c]'
