@@ -1,18 +1,19 @@
 export const STUDIO_INFO = {
-  name: "Pixel",
+  name: "Pixel Production",
+  brandTitle: "PIXEL PRODUCTION",
   tagline: "Your story, told like cinema.",
-  subtext: "We craft videos with feeling—for brands, people, and moments that deserve to be remembered.",
+  subtext: "Pixel Production crafts cinematic videos with feeling—for brands, people, and unrepeatable moments. Based in Karaikudi, delivering worldwide.",
   location: "Karaikudi",
   availability: "Available Worldwide",
   contact: {
-    email: "hello@pixelcinema.in",
+    email: "contact@pixelproduction.in",
     phone: "+91 93423 36009",
     rawPhone: "9342336009",
-    address: "Pixel Video Studio, Sekkalai Road, Karaikudi, Tamil Nadu 630001",
+    address: "Pixel Production Studio, Sekkalai Road, Karaikudi, Tamil Nadu 630001",
     whatsapp: "https://wa.me/919342336009",
-    instagram: "@pixelcinema.co",
-    vimeo: "pixelcinema",
-    youtube: "@pixelcinematography"
+    instagram: "@pixelproduction.in",
+    vimeo: "pixelproduction",
+    youtube: "@pixelproduction"
   },
   stats: [
     { value: "100+", label: "Videos Delivered", detail: "Commercial videos, brand anthems & high-end wedding videos" },
@@ -94,7 +95,7 @@ export const PORTFOLIO_PROJECTS = [
     year: "2024",
     aspectRatio: "2.39:1 Anamorphic",
     thumbnail: "https://images.unsplash.com/photo-1518131672697-613becd4fab5?q=80&w=1200&auto=format&fit=crop",
-    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+    videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-man-making-a-leather-shoe-42211-large.mp4",
     tagline: "Precision timekeeping brand video shot on Cooke Anamorphic glass",
     views: "240K+",
     director: "Arun Kumar",
@@ -110,7 +111,7 @@ export const PORTFOLIO_PROJECTS = [
     year: "2024",
     aspectRatio: "16:9 Cinema",
     thumbnail: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200&auto=format&fit=crop",
-    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-bride-and-groom-holding-hands-and-walking-42777-large.mp4",
     tagline: "A three-day coastal celebration wedding video bathed in golden hour warmth",
     views: "520K+",
     director: "Siddharth Raman",
@@ -126,7 +127,7 @@ export const PORTFOLIO_PROJECTS = [
     year: "2024",
     aspectRatio: "2.39:1",
     thumbnail: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200&auto=format&fit=crop",
-    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+    videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-sports-car-drifting-on-a-racetrack-41617-large.mp4",
     tagline: "High-speed pursuit commercial video shot at Karaikudi Motor Park",
     views: "890K+",
     director: "Arun Kumar",
@@ -142,7 +143,7 @@ export const PORTFOLIO_PROJECTS = [
     year: "2023",
     aspectRatio: "4:3 Classic",
     thumbnail: "https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?q=80&w=1200&auto=format&fit=crop",
-    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+    videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-aerial-view-of-waves-crashing-on-a-rocky-shore-41584-large.mp4",
     tagline: "The fading art of mulberry silk weaving documentary video in Western Tamil Nadu",
     views: "180K+",
     director: "Arun Kumar",
@@ -158,7 +159,7 @@ export const PORTFOLIO_PROJECTS = [
     year: "2024",
     aspectRatio: "9:16 Vertical",
     thumbnail: "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=1200&auto=format&fit=crop",
-    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyBlazes.mp4",
+    videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-woman-applying-a-face-cream-in-a-mirror-42277-large.mp4",
     tagline: "Sensory macro droplets and botanicals product video shot at 240fps slow motion",
     views: "1.2M+",
     director: "Priya Mohan",
@@ -174,7 +175,7 @@ export const PORTFOLIO_PROJECTS = [
     year: "2024",
     aspectRatio: "2.39:1 Anamorphic",
     thumbnail: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=1200&auto=format&fit=crop",
-    videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-drone-shot-of-a-temple-complex-surrounded-by-trees-42345-large.mp4",
     tagline: "Live acoustic vocal performance video inside an 800-year-old stone temple",
     views: "430K+",
     director: "Arun Kumar",
@@ -354,8 +355,8 @@ export const PIPELINE_STAGES = [
 
 export const FAQS = [
   {
-    q: "Where is Pixel based and do you travel?",
-    a: "Our core video studio and gear vault are in Karaikudi, Tamil Nadu. However, our team travels worldwide—from European destination weddings to commercial video shoots across Mumbai, Bengaluru, Dubai, and Singapore."
+    q: "Where is Pixel Production based and do you travel?",
+    a: "Pixel Production's core video studio and gear vault are in Karaikudi, Tamil Nadu. However, our team travels worldwide—from European destination weddings to commercial video shoots across Mumbai, Bengaluru, Dubai, and Singapore."
   },
   {
     q: "What camera gear and lenses do you shoot with?",

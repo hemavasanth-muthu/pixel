@@ -1,8 +1,8 @@
 import React from 'react';
-import { ArrowRight, Video, ChevronDown } from 'lucide-react';
+import { ArrowRight, ChevronDown } from 'lucide-react';
 import { STUDIO_INFO } from '../data/mockData';
 
-export default function Hero({ onOpenFindVideoModal }) {
+export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-start overflow-hidden pt-20 lg:pt-0">
       {/* Background Image Container */}
@@ -20,16 +20,19 @@ export default function Hero({ onOpenFindVideoModal }) {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-16 lg:py-24">
         <div className="max-w-2xl lg:max-w-3xl">
-          {/* KARAIKUDI · Available Worldwide pill tag */}
-          <div className="inline-flex items-center gap-3 mb-6 animate-in fade-in slide-in-from-bottom-2 duration-700">
-            <span className="w-8 h-[2px] bg-[#F5B726]" />
-            <span className="text-xs sm:text-sm font-semibold tracking-[0.25em] text-[#d4d4d8] uppercase">
-              KARAIKUDI &nbsp;·&nbsp; AVAILABLE WORLDWIDE
+          {/* Brand & Location pill badge */}
+          <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-[#14141c]/90 border border-[#F5B726]/40 backdrop-blur-md mb-6 shadow-lg shadow-[#F5B726]/10 animate-in fade-in slide-in-from-bottom-2 duration-700">
+            <span className="w-2 h-2 rounded-full bg-[#F5B726] animate-pulse" />
+            <span className="text-xs sm:text-sm font-bold tracking-[0.25em] text-[#F5B726] uppercase">
+              PIXEL PRODUCTION &nbsp;·&nbsp; KARAIKUDI &nbsp;·&nbsp; WORLDWIDE
             </span>
           </div>
 
-          {/* Main Headline */}
+          {/* Main Headline with Prominent Studio Brand */}
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-serif font-bold text-white tracking-tight leading-[1.05] mb-6">
+            <span className="block text-2xl sm:text-3xl md:text-4xl font-sans font-black tracking-[0.2em] text-[#F5B726] uppercase mb-3 cinema-gold-text">
+              PIXEL PRODUCTION
+            </span>
             Your story,
             <br />
             told like{' '}
@@ -39,12 +42,12 @@ export default function Hero({ onOpenFindVideoModal }) {
           </h1>
 
           {/* Subtext description */}
-          <p className="text-lg sm:text-xl text-[#a1a1aa] font-normal leading-relaxed max-w-xl mb-10">
-            We craft videos with feeling—for brands, people, and moments that
+          <p className="text-lg sm:text-xl text-[#d4d4d8] font-normal leading-relaxed max-w-xl mb-10">
+            Pixel Production crafts cinematic videos with feeling—for brands, people, and moments that
             deserve to be remembered.
           </p>
 
-          {/* CTA Buttons */}
+          {/* Direct Production Action Buttons */}
           <div className="flex flex-wrap items-center gap-4 sm:gap-5 mb-16 sm:mb-20">
             <a
               href="#work"
@@ -54,15 +57,17 @@ export default function Hero({ onOpenFindVideoModal }) {
               <ArrowRight className="w-5 h-5" />
             </a>
 
-            <button
-              onClick={onOpenFindVideoModal}
-              className="inline-flex items-center gap-3 px-7 py-4 rounded-full text-base font-medium text-[#e4e4e7] bg-[#121216]/80 hover:bg-[#1c1c22] border border-[#27272a] hover:border-[#F5B726]/50 transition-all backdrop-blur-sm group"
+            <a
+              href={STUDIO_INFO.contact.whatsapp}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 px-7 py-4 rounded-full text-base font-semibold text-emerald-300 bg-[#121216]/90 hover:bg-[#15231c] border border-emerald-500/40 hover:border-emerald-400 transition-all backdrop-blur-sm group shadow-md"
             >
-              <div className="w-8 h-8 rounded-full border border-white/20 flex items-center justify-center group-hover:border-[#F5B726] group-hover:bg-[#F5B726]/10 transition-colors">
-                <Video className="w-4 h-4 text-[#F5B726]" />
+              <div className="w-8 h-8 rounded-full border border-emerald-500/40 flex items-center justify-center group-hover:bg-emerald-500/20 transition-colors">
+                <span className="text-sm">💬</span>
               </div>
-              <span>Find your video</span>
-            </button>
+              <span>WhatsApp: +91 93423 36009</span>
+            </a>
           </div>
 
           {/* Bottom Stats and Credibility Row */}

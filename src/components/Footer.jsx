@@ -19,17 +19,17 @@ export default function Footer() {
                 alt="Pixel Video Logo"
                 className="h-10 w-auto object-contain filter drop-shadow-[0_2px_8px_rgba(245,183,38,0.4)]"
               />
-              <span className="text-2xl font-serif font-bold text-white tracking-wider">
-                PIXEL
+              <span className="text-2xl font-black text-white tracking-widest font-sans flex items-center gap-1.5">
+                PIXEL <span className="cinema-gold-text">PRODUCTION</span>
               </span>
             </div>
             <p className="text-xs text-[#a1a1aa] leading-relaxed max-w-sm">
-              Your story, told like cinema. We craft commercial videos, brand anthems, and bespoke heirloom wedding videos for clients worldwide from Karaikudi.
+              Your story, told like cinema. Pixel Production crafts commercial videos, brand anthems, and bespoke heirloom wedding films for clients worldwide from Karaikudi.
             </p>
             <div className="flex items-center gap-2 pt-2">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
               <span className="text-[11px] text-[#d4d4d8]">
-                Karaikudi Video Studio · Available Worldwide
+                Pixel Production Studio · Karaikudi · Worldwide
               </span>
             </div>
           </div>
@@ -99,7 +99,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-[#71717a]">
           <div>
-            © {new Date().getFullYear()} Pixel Video Studio. All rights reserved. Handcrafted for visual storytellers.
+            © {new Date().getFullYear()} Pixel Production. All rights reserved. Handcrafted for visual storytellers.
           </div>
           <div className="flex items-center gap-6">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>

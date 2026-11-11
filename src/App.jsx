@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import FindYourVideoModal from './components/FindYourVideoModal';
 import AboutSection from './components/AboutSection';
 import ServicesSection from './components/ServicesSection';
 import WorkSection from './components/WorkSection';
@@ -12,7 +11,6 @@ import ProjectAndTaskHub from './components/ProjectAndTaskHub';
 import Footer from './components/Footer';
 
 export default function App() {
-  const [isFindVideoModalOpen, setIsFindVideoModalOpen] = useState(false);
   const [prefilledData, setPrefilledData] = useState(null);
   const [activeHubTab, setActiveHubTab] = useState('start-project');
 
@@ -68,15 +66,6 @@ export default function App() {
     }
   };
 
-  const handleApplyFindVideoScope = (scopeData) => {
-    setActiveHubTab('start-project');
-    setPrefilledData(scopeData);
-    const el = document.getElementById('contact');
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <div className="min-h-screen bg-[#09090b] text-[#f4f4f5] selection:bg-[#F5B726] selection:text-black">
       {/* Top Navbar */}
@@ -86,9 +75,7 @@ export default function App() {
       />
 
       {/* Hero Section matching Figma design */}
-      <Hero
-        onOpenFindVideoModal={() => setIsFindVideoModalOpen(true)}
-      />
+      <Hero />
 
       {/* Studio Philosophy & Manifesto */}
       <AboutSection />
@@ -122,13 +109,6 @@ export default function App() {
 
       {/* Footer */}
       <Footer />
-
-      {/* Interactive Questionnaire Modal */}
-      <FindYourVideoModal
-        isOpen={isFindVideoModalOpen}
-        onClose={() => setIsFindVideoModalOpen(false)}
-        onSelectPlanAndPrefill={handleApplyFindVideoScope}
-      />
     </div>
   );
 }

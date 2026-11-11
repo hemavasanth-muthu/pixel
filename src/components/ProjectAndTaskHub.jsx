@@ -280,7 +280,7 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
           <div className="inline-flex items-center gap-3 mb-4">
             <span className="w-8 h-[2px] bg-[#F5B726]" />
             <span className="text-xs font-bold tracking-[0.25em] text-[#F5B726] uppercase">
-              KARAIKUDI STUDIO &amp; PRODUCTION HUB
+              PIXEL PRODUCTION &nbsp;·&nbsp; KARAIKUDI STUDIO
             </span>
             <span className="w-8 h-[2px] bg-[#F5B726]" />
           </div>
@@ -289,7 +289,7 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
             <span className="italic cinema-gold-text">unforgettable.</span>
           </h2>
           <p className="text-base sm:text-lg text-[#a1a1aa] leading-relaxed">
-            Kick off a new project inquiry or collaborate inside our real-time production task assignment system.
+            Inquire for your next video production or review live schedules on the Pixel Production operations portal.
           </p>
 
           {/* Dual Tab Switcher */}
@@ -303,7 +303,7 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
               }`}
             >
               <Send className="w-4 h-4" />
-              <span>Start a Project</span>
+              <span>Book a Production</span>
             </button>
             <button
               onClick={() => setActiveTab('task-board')}
@@ -314,7 +314,7 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
               }`}
             >
               <Kanban className="w-4 h-4" />
-              <span>Production Task App</span>
+              <span>Studio Operations Board</span>
               <span className="px-2 py-0.5 rounded-full text-[10px] bg-[#23232c] text-[#F5B726] ml-1">
                 {tasks.length}
               </span>
@@ -329,10 +329,10 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
             <div className="lg:col-span-5 space-y-6">
               <div className="p-8 rounded-3xl bg-[#121217] border border-[#23232c]">
                 <h3 className="text-2xl font-serif font-bold text-white mb-2">
-                  Pixel Cinema Studio
+                  Pixel Production Studio
                 </h3>
                 <p className="text-sm text-[#a1a1aa] leading-relaxed mb-6">
-                  Based in Sekkalai Road, KARAIKUDI. We handle everything from concept development and storyboard animatics to Hollywood-grade color finishing.
+                  Based in Sekkalai Road, Karaikudi. We handle everything from concept development and storyboard animatics to Hollywood-grade color finishing.
                 </p>
 
                 <div className="space-y-4 text-sm text-[#d4d4d8]">
@@ -370,20 +370,20 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
                 </div>
               </div>
 
-              {/* Quick Prompt on Task App */}
+              {/* Production Pipeline Overview */}
               <div className="p-6 rounded-3xl bg-gradient-to-br from-[#181822] to-[#121218] border border-[#F5B726]/30">
                 <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#F5B726] mb-2">
                   <Sparkles className="w-4 h-4" />
-                  <span>Real-time Production Task Integration</span>
+                  <span>Dedicated Production Pipeline</span>
                 </div>
                 <p className="text-xs text-[#a1a1aa] leading-relaxed mb-4">
-                  Submitting this brief instantly creates live production tasks on our studio Kanban board with assigned Creative Director &amp; DP!
+                  Every Pixel Production project is assigned dedicated department heads (Creative Director, DP, Senior Editor &amp; Colorist) with structured milestones.
                 </p>
                 <button
                   onClick={() => setActiveTab('task-board')}
                   className="text-xs font-bold text-[#F5B726] hover:text-[#FED40E] flex items-center gap-1 group"
                 >
-                  <span>Explore the live studio board</span>
+                  <span>View Pixel Production Operations Board</span>
                   <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
                 </button>
               </div>
@@ -450,7 +450,7 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
                         required
                         value={form.name}
                         onChange={(e) => setForm({ ...form, name: e.target.value })}
-                        placeholder="e.g. Vigneshwar Raman"
+                        placeholder="Your Name / Organization"
                         className="w-full px-4 py-3 rounded-xl bg-[#181820] border border-[#2b2b38] text-white placeholder-[#52525b] text-sm focus:outline-none focus:border-[#F5B726] transition-colors"
                       />
                     </div>
@@ -463,7 +463,7 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
                         required
                         value={form.email}
                         onChange={(e) => setForm({ ...form, email: e.target.value })}
-                        placeholder="vignesh@company.com"
+                        placeholder="your.email@example.com"
                         className="w-full px-4 py-3 rounded-xl bg-[#181820] border border-[#2b2b38] text-white placeholder-[#52525b] text-sm focus:outline-none focus:border-[#F5B726] transition-colors"
                       />
                     </div>
@@ -1055,7 +1055,7 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
                       type="text"
                       value={newTask.project}
                       onChange={(e) => setNewTask({ ...newTask, project: e.target.value })}
-                      placeholder="e.g. Solitude Brand Video"
+                      placeholder="e.g. Commercial Hero Video"
                       className="w-full px-3.5 py-2.5 rounded-xl bg-[#181822] border border-[#2d2d3c] text-white text-xs focus:outline-none focus:border-[#F5B726]"
                     />
                   </div>

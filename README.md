@@ -1,38 +1,36 @@
-# Pixel Cinema | Creative Visual Studio & Production Task App
+# Pixel Production | Premium Cinematic Video Studio & Production Operations Hub
 
-A modern, high-performance web application created from the Figma design (**"Your story, told like cinema"** — KARAIKUDI · Available Worldwide) with an integrated real-time **Production Task Assignment Board** (`#contact`).
+A modern, high-performance web application for **Pixel Production** (**"Your story, told like cinema"** — Karaikudi · Available Worldwide) with an integrated real-time **Production Operations & Task Assignment Hub** (`#contact`).
+
+- **Phone / WhatsApp**: [+91 93423 36009](https://wa.me/919342336009)
+- **Studio Address**: Pixel Production Studio, Sekkalai Road, Karaikudi, Tamil Nadu 630001
+- **Email**: contact@pixelproduction.in
 
 ---
 
 ## 🎬 Features & Architecture
 
-### 1. Pixel-Perfect Hero Section (from Figma)
-- **Cinematic Photography Background**: High-resolution 4K RED/ARRI cinema camera operator on set with warm golden bokeh.
-- **Brand Monogram Logo**: Extracted vectorized "P" with golden cinema upward swoosh.
+### 1. High-Impact Hero Section
+- **Studio Masthead**: Prominent, unforgettable **PIXEL PRODUCTION** branding in signature golden cinema typography.
+- **Cinematic Photography Background**: High-resolution 4K cinema camera operator on set with warm golden bokeh.
+- **Brand Monogram Logo**: Custom logo with golden cinema upward swoosh.
 - **Headline & Typography**:
-  - *"Your story, told like cinema."* (*cinema.* in warm italic golden gradient `#F5B726`)
-  - Subtext: *"We craft videos with feeling—for brands, people, and moments that deserve to be remembered."*
-  - Location badge: `KARAIKUDI · AVAILABLE WORLDWIDE`
-- **CTAs & Actions**:
-  - Primary: `Explore our work ->`
-  - Secondary: `Find your video` (Launches an interactive scope recommendation questionnaire)
+  - *"PIXEL PRODUCTION — Your story, told like cinema."*
+  - Subtext: *"Pixel Production crafts cinematic videos with feeling—for brands, people, and moments that deserve to be remembered."*
+  - Location badge: `PIXEL PRODUCTION · KARAIKUDI · WORLDWIDE`
+- **Direct High-Conversion CTAs**:
+  - Primary: `Explore our videos ->`
+  - Secondary: `WhatsApp Direct: +91 93423 36009`
 - **Studio Credibility Statistics**:
   - `100+` Videos Delivered
   - `5+` Years Creating
   - `1M+` Views Earned
-  - `Scroll to discover ↓`
 
 ---
 
-### 2. Interactive "Find Your Video" Scope Builder
-- 3-step interactive questionnaire helping potential clients specify their story type, mood/aesthetic, and distribution channels.
-- Instantly calculates recommended package scope, turnaround time, camera package, and allows one-click kickoff into the inquiry form.
-
----
-
-### 3. Studio Manifesto & Capabilities (About)
-- Story of the KARAIKUDI cinema vault, optical heritage (Cooke & Atlas anamorphic lenses), tactile audio recording, and ACES DaVinci Resolve color grading.
-- In-house cinema gear specifications.
+### 2. Studio Philosophy & Manifesto (About)
+- Story of Pixel Production's Chettinad heritage roots, optical heritage (Cooke & Atlas anamorphic lenses), tactile audio recording, and ACES DaVinci Resolve color grading.
+- In-house cinema gear specifications with interactive gear inspector.
 
 ---
 

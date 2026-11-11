@@ -23,7 +23,7 @@ export default function AboutSection() {
     {
       icon: Globe,
       title: "Karaikudi to the World",
-      description: "Rooted in the lush foothills of the Western Ghats, our production crew travels across continents, bringing raw local heart to global audiences."
+      description: "Rooted in the architectural grandeur of the Chettinad heritage region in Karaikudi, our production crew travels across continents, bringing raw cultural soul to global audiences."
     }
   ];
 
@@ -32,7 +32,7 @@ export default function AboutSection() {
       name: "RED Digital Cinema 8K V-Raptor",
       type: "Large Format Cinema Sensor",
       specs: ["8192 x 4320 Resolution", "17+ Stops Dynamic Range", "REDCODE RAW 16-Bit", "120fps @ 8K Full Sensor"],
-      whyWeShoot: "Provides peerless latitude for high-contrast outdoor shoots in Karaikudi's hills, retaining subtle cloud highlights and deep shadow detail simultaneously.",
+      whyWeShoot: "Provides peerless latitude for high-contrast outdoor shoots under the South Indian sun, retaining subtle cloud highlights and deep shadow detail simultaneously.",
       badge: "A-Camera"
     },
     "Sony FX Cinema Line": {
@@ -110,8 +110,8 @@ export default function AboutSection() {
             <span className="italic cinema-gold-text">unrepeatable moments.</span>
           </h2>
           <p className="text-lg text-[#a1a1aa] leading-relaxed">
-            Pixel was founded on a simple premise: commercial videos shouldn’t feel like sterile advertisements,
-            and personal heirloom videos shouldn’t look like amateur videography. Every video we capture is treated
+            <strong className="text-white font-bold">Pixel Production</strong> was founded on a simple premise: commercial videos shouldn’t feel like sterile advertisements,
+            and personal heirloom videos shouldn’t look like amateur videography. Every video crafted by Pixel Production is treated
             as a piece of cinema—curated with intention, respect for light, and obsessive devotion to narrative truth.
           </p>
         </div>
@@ -143,7 +143,7 @@ export default function AboutSection() {
         <div className="rounded-3xl bg-gradient-to-r from-[#14141c] via-[#111116] to-[#14141c] border border-[#23232c] p-8 sm:p-12 relative overflow-hidden">
           <div className="max-w-3xl">
             <p className="text-xl sm:text-2xl font-serif italic text-[#e4e4e7] leading-relaxed mb-6">
-              “Every great video gives weight to fleeting seconds. When you watch a Pixel video, you shouldn't just observe what happened—you should feel the exact temperature of the room.”
+              “Every great video gives weight to fleeting seconds. When you watch a Pixel Production video, you shouldn't just observe what happened—you should feel the exact temperature of the room.”
             </p>
             <div className="flex items-center gap-4">
               <div className="w-10 h-10 rounded-full bg-[#F5B726] text-black font-bold flex items-center justify-center font-serif text-sm">
@@ -151,7 +151,7 @@ export default function AboutSection() {
               </div>
               <div>
                 <span className="font-bold text-white block text-sm">Arun Kumar</span>
-                <span className="text-xs text-[#a1a1aa]">Founder &amp; Creative Director · Pixel Video Studio, Karaikudi</span>
+                <span className="text-xs text-[#a1a1aa]">Founder &amp; Creative Director · Pixel Production, Karaikudi</span>
               </div>
             </div>
           </div>
@@ -228,7 +228,7 @@ export default function AboutSection() {
 
             <div className="mt-8 pt-4 border-t border-white/5 flex items-center justify-between">
               <span className="text-[11px] text-[#71717a]">
-                Available at Karaikudi Studio Vault
+                Available at Pixel Production Vault · Karaikudi
               </span>
               <button
                 onClick={() => setSelectedGear(null)}
