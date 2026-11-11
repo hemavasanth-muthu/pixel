@@ -1,6 +1,7 @@
 export const STUDIO_INFO = {
   name: "Pixel Production",
   brandTitle: "PIXEL PRODUCTION",
+  owner: "Akash",
   tagline: "Your story, told like cinema.",
   subtext: "Pixel Production crafts cinematic videos with feeling—for brands, people, and unrepeatable moments. Based in Karaikudi, delivering worldwide.",
   location: "Karaikudi",
@@ -98,7 +99,7 @@ export const PORTFOLIO_PROJECTS = [
     videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-hands-of-a-man-making-a-leather-shoe-42211-large.mp4",
     tagline: "Precision timekeeping brand video shot on Cooke Anamorphic glass",
     views: "240K+",
-    director: "Arun Kumar",
+    director: "Akash",
     cinematographer: "Siddharth Raman",
     description: "An intimate exploration of horological engineering shot entirely in natural light with custom anamorphic flares."
   },
@@ -130,7 +131,7 @@ export const PORTFOLIO_PROJECTS = [
     videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-sports-car-drifting-on-a-racetrack-41617-large.mp4",
     tagline: "High-speed pursuit commercial video shot at Karaikudi Motor Park",
     views: "890K+",
-    director: "Arun Kumar",
+    director: "Akash",
     cinematographer: "Siddharth Raman",
     description: "Track-side tracking rig with Russian Arm capturing aerodynamic sculpture at 160 km/h."
   },
@@ -146,7 +147,7 @@ export const PORTFOLIO_PROJECTS = [
     videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-aerial-view-of-waves-crashing-on-a-rocky-shore-41584-large.mp4",
     tagline: "The fading art of mulberry silk weaving documentary video in Western Tamil Nadu",
     views: "180K+",
-    director: "Arun Kumar",
+    director: "Akash",
     cinematographer: "Karthik Raja",
     description: "Official Selection at South Asian Heritage Video Showcase. Tactile audio design paired with vintage lenses."
   },
@@ -178,7 +179,7 @@ export const PORTFOLIO_PROJECTS = [
     videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-drone-shot-of-a-temple-complex-surrounded-by-trees-42345-large.mp4",
     tagline: "Live acoustic vocal performance video inside an 800-year-old stone temple",
     views: "430K+",
-    director: "Arun Kumar",
+    director: "Akash",
     cinematographer: "Ananya Krishnan",
     description: "Shot during pre-dawn twilight with single candlelight and natural acoustic chamber reflections."
   }
@@ -244,7 +245,7 @@ export const PACKAGES = [
 ];
 
 export const CREW_MEMBERS = [
-  { id: "crew-1", name: "Arun Kumar", role: "Creative Director", avatar: "AK", color: "bg-amber-600" },
+  { id: "crew-1", name: "Akash", role: "Owner & Creative Director", avatar: "AK", color: "bg-amber-600" },
   { id: "crew-2", name: "Siddharth Raman", role: "Director of Photography", avatar: "SR", color: "bg-yellow-600" },
   { id: "crew-3", name: "Priya Mohan", role: "Lead Video Editor", avatar: "PM", color: "bg-emerald-600" },
   { id: "crew-4", name: "Karthik Raja", role: "Senior Colorist", avatar: "KR", color: "bg-cyan-600" },

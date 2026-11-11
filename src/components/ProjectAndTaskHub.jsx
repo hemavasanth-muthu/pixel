@@ -401,7 +401,7 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
                   </h3>
                   <p className="text-base text-[#a1a1aa] max-w-md mx-auto leading-relaxed">
                     Thank you, <strong className="text-white">{form.name}</strong>. Your project inquiry has been logged as{' '}
-                    <span className="font-mono font-bold text-[#F5B726]">{lastSubmittedId}</span>. Arun Kumar and our cinematography team will review your treatment today.
+                    <span className="font-mono font-bold text-[#F5B726]">{lastSubmittedId}</span>. Akash and our cinematography team will review your treatment today.
                   </p>
 
                   <div className="p-4 rounded-2xl bg-[#191924] border border-[#2b2b3a] max-w-sm mx-auto text-xs text-left space-y-2">

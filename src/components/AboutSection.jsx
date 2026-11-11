@@ -150,8 +150,8 @@ export default function AboutSection() {
                 AK
               </div>
               <div>
-                <span className="font-bold text-white block text-sm">Arun Kumar</span>
-                <span className="text-xs text-[#a1a1aa]">Founder &amp; Creative Director · Pixel Production, Karaikudi</span>
+                <span className="font-bold text-white block text-sm">Akash</span>
+                <span className="text-xs text-[#a1a1aa]">Owner &amp; Creative Director · Pixel Production, Karaikudi</span>
               </div>
             </div>
           </div>

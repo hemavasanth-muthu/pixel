@@ -14,7 +14,7 @@ export default function TestimonialsSection() {
       stars: 5
     },
     {
-      quote: "We brought Arun and his cinematography crew from Karaikudi to shoot our three-day wedding in Malabar. Watching the final wedding video brought tears to our entire family. Pure visual poetry.",
+      quote: "We brought Akash and his cinematography crew from Karaikudi to shoot our three-day wedding in Malabar. Watching the final wedding video brought tears to our entire family. Pure visual poetry.",
       author: "Aarav & Meera",
       role: "Newlyweds",
       location: "Kochi, Kerala",
