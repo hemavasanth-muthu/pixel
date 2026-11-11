@@ -13,7 +13,7 @@ export default function ServicesSection({ onSelectService }) {
   };
 
   return (
-    <section id="services" className="py-24 sm:py-32 bg-[#0c0c10] relative">
+    <section id="services" className="py-24 sm:py-32 bg-[#0c0c10] relative scroll-mt-24 sm:scroll-mt-28">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 sm:mb-20">

@@ -59,7 +59,7 @@ export default function PackagesSection({ onSelectPackage }) {
   };
 
   return (
-    <section id="packages" className="py-24 sm:py-32 bg-[#09090b] relative">
+    <section id="packages" className="py-24 sm:py-32 bg-[#09090b] relative scroll-mt-24 sm:scroll-mt-28">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 sm:mb-20">

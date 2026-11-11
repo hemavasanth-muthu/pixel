@@ -89,7 +89,7 @@ export default function AboutSection() {
   const gearSpecs = Object.keys(gearDetails);
 
   return (
-    <section id="about" className="py-24 sm:py-32 bg-[#09090b] relative overflow-hidden">
+    <section id="about" className="py-24 sm:py-32 bg-[#09090b] relative overflow-hidden scroll-mt-24 sm:scroll-mt-28">
       {/* Background ambient accents */}
       <div className="absolute top-1/2 left-0 w-96 h-96 bg-[#F5B726]/5 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute bottom-0 right-0 w-80 h-80 bg-amber-600/5 rounded-full blur-[100px] pointer-events-none" />

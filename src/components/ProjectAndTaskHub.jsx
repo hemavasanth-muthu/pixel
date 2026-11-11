@@ -269,7 +269,7 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
   const completionRate = totalTasks > 0 ? Math.round((completedTasks / totalTasks) * 100) : 0;
 
   return (
-    <section id="contact" className="py-24 sm:py-32 bg-[#09090b] relative overflow-hidden">
+    <section id="contact" className="py-24 sm:py-32 bg-[#09090b] relative overflow-hidden scroll-mt-24 sm:scroll-mt-28">
       {/* Background ambient lighting */}
       <div className="absolute top-1/4 -right-20 w-96 h-96 bg-[#F5B726]/10 rounded-full blur-[140px] pointer-events-none" />
       <div className="absolute bottom-10 -left-20 w-96 h-96 bg-amber-700/10 rounded-full blur-[140px] pointer-events-none" />
@@ -355,7 +355,7 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
                   <div className="flex items-start gap-3">
                     <span className="text-[#F5B726] font-bold text-xs uppercase w-20 shrink-0">WhatsApp</span>
                     <a href={STUDIO_INFO.contact.whatsapp} target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:text-emerald-300 font-medium transition-colors">
-                      Direct WhatsApp Chat (+91 93423 36009)
+                      Direct WhatsApp Chat
                     </a>
                   </div>
                 </div>
@@ -478,7 +478,7 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
                         type="tel"
                         value={form.phone}
                         onChange={(e) => setForm({ ...form, phone: e.target.value })}
-                        placeholder="+91 93423 36009"
+                        placeholder="Your phone or WhatsApp number"
                         className="w-full px-4 py-3 rounded-xl bg-[#181820] border border-[#2b2b38] text-white placeholder-[#52525b] text-sm focus:outline-none focus:border-[#F5B726] transition-colors"
                       />
                     </div>

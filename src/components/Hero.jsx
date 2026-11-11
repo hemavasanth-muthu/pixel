@@ -4,7 +4,7 @@ import { STUDIO_INFO } from '../data/mockData';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-start overflow-hidden pt-20 lg:pt-0">
+    <section className="relative min-h-screen flex flex-col justify-center overflow-hidden pt-32 sm:pt-40 lg:pt-44 pb-16 sm:pb-24">
       {/* Background Image Container */}
       <div className="absolute inset-0 z-0">
         <img
@@ -18,7 +18,7 @@ export default function Hero() {
         <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[#09090b] via-[#09090b]/80 to-transparent pointer-events-none" />
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-16 lg:py-24">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-6 sm:py-10">
         <div className="max-w-2xl lg:max-w-3xl">
           {/* Brand & Location pill badge */}
           <div className="inline-flex items-center gap-2 sm:gap-3 px-3.5 sm:px-4 py-1.5 sm:py-2 rounded-full bg-[#14141c]/90 border border-[#F5B726]/40 backdrop-blur-md mb-6 shadow-lg shadow-[#F5B726]/10 animate-in fade-in slide-in-from-bottom-2 duration-700 max-w-full">
@@ -61,12 +61,12 @@ export default function Hero() {
               href={STUDIO_INFO.contact.whatsapp}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-3 px-6 sm:px-7 py-3.5 sm:py-4 rounded-full text-sm sm:text-base font-semibold text-emerald-300 bg-[#121216]/90 hover:bg-[#15231c] border border-emerald-500/40 hover:border-emerald-400 transition-all backdrop-blur-sm group shadow-md"
+              className="inline-flex items-center justify-center gap-2.5 px-6 sm:px-7 py-3.5 sm:py-4 rounded-full text-sm sm:text-base font-semibold text-emerald-300 bg-[#121216]/90 hover:bg-[#15231c] border border-emerald-500/40 hover:border-emerald-400 transition-all backdrop-blur-sm group shadow-md"
             >
               <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full border border-emerald-500/40 flex items-center justify-center group-hover:bg-emerald-500/20 transition-colors shrink-0">
                 <span className="text-sm">💬</span>
               </div>
-              <span>WhatsApp: +91 93423 36009</span>
+              <span>Chat on WhatsApp</span>
             </a>
           </div>
 
