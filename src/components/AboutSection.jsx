@@ -18,11 +18,11 @@ export default function AboutSection() {
     {
       icon: Award,
       title: "ACES Master Color Science",
-      description: "Our dedicated color grading suite in Coimbatore uses DaVinci Resolve Studio with Flanders Scientific calibrated reference displays for Hollywood-grade video fidelity."
+      description: "Our dedicated color grading suite in Karaikudi uses DaVinci Resolve Studio with Flanders Scientific calibrated reference displays for Hollywood-grade video fidelity."
     },
     {
       icon: Globe,
-      title: "Coimbatore to the World",
+      title: "Karaikudi to the World",
       description: "Rooted in the lush foothills of the Western Ghats, our production crew travels across continents, bringing raw local heart to global audiences."
     }
   ];
@@ -32,7 +32,7 @@ export default function AboutSection() {
       name: "RED Digital Cinema 8K V-Raptor",
       type: "Large Format Cinema Sensor",
       specs: ["8192 x 4320 Resolution", "17+ Stops Dynamic Range", "REDCODE RAW 16-Bit", "120fps @ 8K Full Sensor"],
-      whyWeShoot: "Provides peerless latitude for high-contrast outdoor shoots in Coimbatore's hills, retaining subtle cloud highlights and deep shadow detail simultaneously.",
+      whyWeShoot: "Provides peerless latitude for high-contrast outdoor shoots in Karaikudi's hills, retaining subtle cloud highlights and deep shadow detail simultaneously.",
       badge: "A-Camera"
     },
     "Sony FX Cinema Line": {
@@ -74,7 +74,7 @@ export default function AboutSection() {
       name: "DaVinci Resolve Studio & Advanced Panel",
       type: "Color Grading & Finishing Suite",
       specs: ["ACES 1.3 Color Managed Workflow", "Flanders Scientific 4K HDR Display", "Dolby Vision Mastering", "Custom Color Emulation LUTs"],
-      whyWeShoot: "Every video is graded in a dark, neutrally-balanced color suite in Coimbatore, ensuring colors look rich, consistent, and identical across all screens.",
+      whyWeShoot: "Every video is graded in a dark, neutrally-balanced color suite in Karaikudi, ensuring colors look rich, consistent, and identical across all screens.",
       badge: "Color Finishing"
     },
     "Dolby Atmos 7.1.4 Mix": {
@@ -151,7 +151,7 @@ export default function AboutSection() {
               </div>
               <div>
                 <span className="font-bold text-white block text-sm">Arun Kumar</span>
-                <span className="text-xs text-[#a1a1aa]">Founder &amp; Creative Director · Pixel Video Studio, Coimbatore</span>
+                <span className="text-xs text-[#a1a1aa]">Founder &amp; Creative Director · Pixel Video Studio, Karaikudi</span>
               </div>
             </div>
           </div>
@@ -228,7 +228,7 @@ export default function AboutSection() {
 
             <div className="mt-8 pt-4 border-t border-white/5 flex items-center justify-between">
               <span className="text-[11px] text-[#71717a]">
-                Available at Coimbatore Studio Vault
+                Available at Karaikudi Studio Vault
               </span>
               <button
                 onClick={() => setSelectedGear(null)}

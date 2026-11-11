@@ -9,7 +9,7 @@ export default function Hero({ onOpenFindVideoModal }) {
       <div className="absolute inset-0 z-0">
         <img
           src="/hero-cinematic.jpg"
-          alt="Cinematographer with cinema camera rig on set in Coimbatore"
+          alt="Cinematographer with cinema camera rig on set in KARAIKUDI"
           className="w-full h-full object-cover object-right-top lg:object-center filter brightness-[0.95]"
         />
         {/* Soft Radial Ambient Cinema Glow in center-left */}
@@ -20,11 +20,11 @@ export default function Hero({ onOpenFindVideoModal }) {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-16 lg:py-24">
         <div className="max-w-2xl lg:max-w-3xl">
-          {/* Coimbatore · Available Worldwide pill tag */}
+          {/* KARAIKUDI · Available Worldwide pill tag */}
           <div className="inline-flex items-center gap-3 mb-6 animate-in fade-in slide-in-from-bottom-2 duration-700">
             <span className="w-8 h-[2px] bg-[#F5B726]" />
             <span className="text-xs sm:text-sm font-semibold tracking-[0.25em] text-[#d4d4d8] uppercase">
-              COIMBATORE &nbsp;·&nbsp; AVAILABLE WORLDWIDE
+              KARAIKUDI &nbsp;·&nbsp; AVAILABLE WORLDWIDE
             </span>
           </div>
 

@@ -2,13 +2,13 @@ export const STUDIO_INFO = {
   name: "Pixel",
   tagline: "Your story, told like cinema.",
   subtext: "We craft videos with feeling—for brands, people, and moments that deserve to be remembered.",
-  location: "Coimbatore",
+  location: "Karaikudi",
   availability: "Available Worldwide",
   contact: {
     email: "hello@pixelcinema.in",
     phone: "+91 93423 36009",
     rawPhone: "9342336009",
-    address: "Pixel Video Studio, Race Course Road, Coimbatore, Tamil Nadu 641018",
+    address: "Pixel Video Studio, Race Course Road, Karaikudi, Tamil Nadu 641018",
     whatsapp: "https://wa.me/919342336009",
     instagram: "@pixelcinema.co",
     vimeo: "pixelcinema",
@@ -127,7 +127,7 @@ export const PORTFOLIO_PROJECTS = [
     aspectRatio: "2.39:1",
     thumbnail: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200&auto=format&fit=crop",
     videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
-    tagline: "High-speed pursuit commercial video shot at Coimbatore Kari Motor Speedway",
+    tagline: "High-speed pursuit commercial video shot at Karaikudi Kari Motor Speedway",
     views: "890K+",
     director: "Arun Kumar",
     cinematographer: "Siddharth Raman",
@@ -284,7 +284,7 @@ export const INITIAL_TASKS = [
   },
   {
     id: "task-103",
-    title: "Principal Photography: Coimbatore Heritage Mill",
+    title: "Principal Photography: Karaikudi Heritage Mill",
     project: "Weavers of Sirumugai",
     stage: "Video Shoot",
     assignedTo: "crew-2",
@@ -355,7 +355,7 @@ export const PIPELINE_STAGES = [
 export const FAQS = [
   {
     q: "Where is Pixel based and do you travel?",
-    a: "Our core video studio and gear vault are in Coimbatore, Tamil Nadu. However, our team travels worldwide—from European destination weddings to commercial video shoots across Mumbai, Bengaluru, Dubai, and Singapore."
+    a: "Our core video studio and gear vault are in Karaikudi, Tamil Nadu. However, our team travels worldwide—from European destination weddings to commercial video shoots across Mumbai, Bengaluru, Dubai, and Singapore."
   },
   {
     q: "What camera gear and lenses do you shoot with?",

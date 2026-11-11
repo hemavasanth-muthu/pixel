@@ -149,7 +149,7 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
         checklist: [
           { text: 'Send intro email & discovery deck', done: true },
           { text: 'Establish tone & reference video links', done: false },
-          { text: 'Set preliminary shoot dates in Coimbatore', done: false }
+          { text: 'Set preliminary shoot dates in KARAIKUDI', done: false }
         ]
       },
       {
@@ -280,7 +280,7 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
           <div className="inline-flex items-center gap-3 mb-4">
             <span className="w-8 h-[2px] bg-[#F5B726]" />
             <span className="text-xs font-bold tracking-[0.25em] text-[#F5B726] uppercase">
-              COIMBATORE STUDIO &amp; PRODUCTION HUB
+              KARAIKUDI STUDIO &amp; PRODUCTION HUB
             </span>
             <span className="w-8 h-[2px] bg-[#F5B726]" />
           </div>
@@ -332,7 +332,7 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
                   Pixel Cinema Studio
                 </h3>
                 <p className="text-sm text-[#a1a1aa] leading-relaxed mb-6">
-                  Based in Race Course, Coimbatore. We handle everything from concept development and storyboard animatics to Hollywood-grade color finishing.
+                  Based in Race Course, KARAIKUDI. We handle everything from concept development and storyboard animatics to Hollywood-grade color finishing.
                 </p>
 
                 <div className="space-y-4 text-sm text-[#d4d4d8]">

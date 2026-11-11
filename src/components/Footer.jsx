@@ -24,12 +24,12 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-xs text-[#a1a1aa] leading-relaxed max-w-sm">
-              Your story, told like cinema. We craft commercial videos, brand anthems, and bespoke heirloom wedding videos for clients worldwide from Coimbatore.
+              Your story, told like cinema. We craft commercial videos, brand anthems, and bespoke heirloom wedding videos for clients worldwide from Karaikudi.
             </p>
             <div className="flex items-center gap-2 pt-2">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
               <span className="text-[11px] text-[#d4d4d8]">
-                Coimbatore Video Studio · Available Worldwide
+                Karaikudi Video Studio · Available Worldwide
               </span>
             </div>
           </div>
@@ -67,12 +67,12 @@ export default function Footer() {
           {/* Col 5: Contact & Location */}
           <div>
             <h4 className="text-white font-bold uppercase tracking-wider text-[11px] mb-4">
-              Coimbatore Vault
+              Karaikudi Vault
             </h4>
             <ul className="space-y-3">
               <li className="flex items-start gap-2">
                 <MapPin className="w-3.5 h-3.5 text-[#F5B726] shrink-0 mt-0.5" />
-                <span className="text-[#d4d4d8] leading-tight">Race Course Road, Coimbatore, Tamil Nadu</span>
+                <span className="text-[#d4d4d8] leading-tight">Race Course Road, Karaikudi, Tamil Nadu</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-3.5 h-3.5 text-[#F5B726] shrink-0" />

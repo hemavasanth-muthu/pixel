@@ -1,6 +1,6 @@
 # Pixel Cinema | Creative Visual Studio & Production Task App
 
-A modern, high-performance web application created from the Figma design (**"Your story, told like cinema"** — Coimbatore · Available Worldwide) with an integrated real-time **Production Task Assignment Board** (`#contact`).
+A modern, high-performance web application created from the Figma design (**"Your story, told like cinema"** — KARAIKUDI · Available Worldwide) with an integrated real-time **Production Task Assignment Board** (`#contact`).
 
 ---
 
@@ -12,7 +12,7 @@ A modern, high-performance web application created from the Figma design (**"You
 - **Headline & Typography**:
   - *"Your story, told like cinema."* (*cinema.* in warm italic golden gradient `#F5B726`)
   - Subtext: *"We craft videos with feeling—for brands, people, and moments that deserve to be remembered."*
-  - Location badge: `COIMBATORE · AVAILABLE WORLDWIDE`
+  - Location badge: `KARAIKUDI · AVAILABLE WORLDWIDE`
 - **CTAs & Actions**:
   - Primary: `Explore our work ->`
   - Secondary: `Find your video` (Launches an interactive scope recommendation questionnaire)
@@ -31,7 +31,7 @@ A modern, high-performance web application created from the Figma design (**"You
 ---
 
 ### 3. Studio Manifesto & Capabilities (About)
-- Story of the Coimbatore cinema vault, optical heritage (Cooke & Atlas anamorphic lenses), tactile audio recording, and ACES DaVinci Resolve color grading.
+- Story of the KARAIKUDI cinema vault, optical heritage (Cooke & Atlas anamorphic lenses), tactile audio recording, and ACES DaVinci Resolve color grading.
 - In-house cinema gear specifications.
 
 ---

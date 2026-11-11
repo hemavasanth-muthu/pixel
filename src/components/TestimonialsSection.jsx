@@ -10,11 +10,11 @@ export default function TestimonialsSection() {
       quote: "Pixel didn't just deliver a brand video—they transformed how investors and customers perceive our company. The anamorphic lens texture and sound design felt like an IMAX documentary.",
       author: "Kavitha Sundaram",
       role: "Founder & CEO, Terra Botanicals",
-      location: "Bengaluru / Coimbatore",
+      location: "Bengaluru / Karaikudi",
       stars: 5
     },
     {
-      quote: "We brought Arun and his cinematography crew from Coimbatore to shoot our three-day wedding in Malabar. Watching the final wedding video brought tears to our entire family. Pure visual poetry.",
+      quote: "We brought Arun and his cinematography crew from Karaikudi to shoot our three-day wedding in Malabar. Watching the final wedding video brought tears to our entire family. Pure visual poetry.",
       author: "Aarav & Meera",
       role: "Newlyweds",
       location: "Kochi, Kerala",
