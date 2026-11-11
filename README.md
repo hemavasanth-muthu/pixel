@@ -2,9 +2,10 @@
 
 A modern, high-performance web application for **Pixel Production** (**"Your story, told like cinema"** — Karaikudi · Available Worldwide) with an integrated real-time **Production Operations & Task Assignment Hub** (`#contact`).
 
-- **Phone / WhatsApp**: [+91 93423 36009](https://wa.me/919342336009)
+- **Founder & Creative Director**: Akash
 - **Studio Address**: Pixel Production Studio, Sekkalai Road, Karaikudi, Tamil Nadu 630001
 - **Email**: contact@pixelproduction.in
+- **WhatsApp**: [Direct WhatsApp Chat](https://wa.me/919342336009)
 
 ---
 
@@ -20,7 +21,7 @@ A modern, high-performance web application for **Pixel Production** (**"Your sto
   - Location badge: `PIXEL PRODUCTION · KARAIKUDI · WORLDWIDE`
 - **Direct High-Conversion CTAs**:
   - Primary: `Explore our videos ->`
-  - Secondary: `WhatsApp Direct: +91 93423 36009`
+  - Secondary: `Chat on WhatsApp`
 - **Studio Credibility Statistics**:
   - `100+` Videos Delivered
   - `5+` Years Creating
@@ -73,7 +74,7 @@ Honors both the Figma `#contact` route and the project prompt *"Create a Task As
 - **Tab B: Production Task Board (Kanban / List Tracker)**:
   - 5 Pipeline Stages: `Pre-Production`, `Video Shoot`, `Post-Production`, `Client Review`, `Completed`.
   - Assign crew members:
-    - *Arun Kumar* (Creative Director)
+    - *Akash* (Founder & Creative Director)
     - *Siddharth Raman* (Director of Photography)
     - *Priya Mohan* (Lead Video Editor)
     - *Karthik Raja* (Senior Colorist)
