@@ -8,10 +8,13 @@ export default function Navbar({ onOpenTaskBoard, onStartProject }) {
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
+      if (window.scrollY > 80 && mobileMenuOpen) {
+        setMobileMenuOpen(false);
+      }
     };
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [mobileMenuOpen]);
 
   const navLinks = [
     { label: 'About', href: '#about' },
@@ -24,10 +27,10 @@ export default function Navbar({ onOpenTaskBoard, onStartProject }) {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-3.5 sm:py-4 ${
         scrolled
-          ? 'bg-[#09090b]/95 backdrop-blur-md border-b border-[#23232c]/80 py-3 shadow-xl shadow-black/50'
-          : 'bg-[#09090b]/75 backdrop-blur-md border-b border-white/10 py-4 sm:py-5 shadow-lg shadow-black/30'
+          ? 'bg-[#09090b]/95 backdrop-blur-md border-b border-[#23232c]/90 shadow-xl shadow-black/50'
+          : 'bg-[#09090b]/80 backdrop-blur-md border-b border-white/10 shadow-lg shadow-black/20'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

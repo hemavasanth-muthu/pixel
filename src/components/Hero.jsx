@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex flex-col justify-center overflow-hidden pt-32 sm:pt-40 lg:pt-44 pb-16 sm:pb-24">
       {/* Background Image Container */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 pointer-events-none select-none">
         <img
           src="/hero-cinematic.jpg"
           alt="Cinematographer with cinema camera rig on set in KARAIKUDI"

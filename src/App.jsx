@@ -14,9 +14,9 @@ export default function App() {
   const [prefilledData, setPrefilledData] = useState(null);
   const [activeHubTab, setActiveHubTab] = useState('start-project');
 
-  // Handle hash route changes like #contact
+  // Handle hash route changes like #contact when clicked
   useEffect(() => {
-    const checkHash = () => {
+    const handleHash = () => {
       if (window.location.hash === '#contact') {
         const el = document.getElementById('contact');
         if (el) {
@@ -24,9 +24,8 @@ export default function App() {
         }
       }
     };
-    checkHash();
-    window.addEventListener('hashchange', checkHash);
-    return () => window.removeEventListener('hashchange', checkHash);
+    window.addEventListener('hashchange', handleHash);
+    return () => window.removeEventListener('hashchange', handleHash);
   }, []);
 
   const handleOpenTaskBoard = () => {
