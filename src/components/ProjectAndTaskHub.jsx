@@ -160,10 +160,10 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
         assignedTo: 'crew-2', // DP
         priority: 'Medium',
         dueDate: new Date(Date.now() + 7 * 86400000).toISOString().split('T')[0],
-        description: `Lock RED/ARRI gear vault allocation and crew roster for ${form.packageTier}.`,
+        description: `Lock Sony FX30 & Nikon ZR camera package, DJI RS 5 gimbal, and Air 3 drone for ${form.packageTier}.`,
         checklist: [
-          { text: 'Reserve anamorphic prime lens set', done: false },
-          { text: 'Assign gaffer & camera assistant', done: false }
+          { text: 'Prep Sony FX30, Nikon ZR, DJI RS 5 & Air 3 drone batteries', done: false },
+          { text: 'Setup Premiere Pro (PR) & CapCut project templates', done: false }
         ]
       }
     ];

@@ -7,82 +7,110 @@ export default function AboutSection() {
   const pillars = [
     {
       icon: Video,
-      title: "Anamorphic Video Optics",
-      description: "We bypass sterile digital sharpness in favor of organic cinema glass—Cooke, Atlas, and vintage sphericals that yield creamy bokeh and subtle anamorphic streak flares."
-    },
-    {
-      icon: Radio,
-      title: "Tactile Acoustic Purity",
-      description: "Sound is 50% of the video experience. We record high-fidelity foley, rich room harmonics, and custom instrumentation to produce visceral sonic depth."
-    },
-    {
-      icon: Award,
-      title: "ACES Master Color Science",
-      description: "Our dedicated color grading suite in Karaikudi uses DaVinci Resolve Studio with Flanders Scientific calibrated reference displays for Hollywood-grade video fidelity."
+      title: "Sony FX30 & Nikon ZR Cinema Rigs",
+      description: "We shoot on dedicated cinema bodies—the Sony FX30 Cinema Line and Nikon ZR high-resolution hybrid—paired with the DJI RS 5 for fluid cinematic movement."
     },
     {
       icon: Globe,
-      title: "Karaikudi to the World",
-      description: "Rooted in the architectural grandeur of the Chettinad heritage region in Karaikudi, our production crew travels across continents, bringing raw cultural soul to global audiences."
+      title: "DJI Air 3 Dual-Camera Drone",
+      description: "Equipped with the DJI Air 3 dual-camera drone, we capture sweeping 4K aerial vistas, Chettinad architectural grandeur, and dynamic subject tracking from above."
+    },
+    {
+      icon: Radio,
+      title: "iPhone 17 Pro & 17 Vertical Video",
+      description: "We harness iPhone 17 Pro and 17 ProRes Log capture for rapid, high-impact vertical Reels and social campaigns engineered to stop thumbs on mobile feeds."
+    },
+    {
+      icon: Award,
+      title: "Premiere Pro (PR) & CapCut Mastery",
+      description: "Every video is mastered through a dual post-production pipeline: Adobe Premiere Pro for full-length cinematic narrative cutting, paired with CapCut for high-velocity viral edits."
     }
   ];
 
   const gearDetails = {
-    "RED Digital Cinema 8K": {
-      name: "RED Digital Cinema 8K V-Raptor",
-      type: "Large Format Cinema Sensor",
-      specs: ["8192 x 4320 Resolution", "17+ Stops Dynamic Range", "REDCODE RAW 16-Bit", "120fps @ 8K Full Sensor"],
-      whyWeShoot: "Provides peerless latitude for high-contrast outdoor shoots under the South Indian sun, retaining subtle cloud highlights and deep shadow detail simultaneously.",
-      badge: "A-Camera"
+    "Sony FX30 Cinema Line": {
+      name: "Sony FX30 Cinema Line Camera",
+      type: "Super 35 4K Cinema Camera",
+      specs: [
+        "4K Super 35 Exmor R Back-Illuminated Sensor",
+        "Dual Base ISO (800 / 2500) for Ultra-Clean Low-Light",
+        "S-Cinetone™ Color Profile with 14+ Stops Dynamic Range",
+        "4K 120p High Frame Rate for Silky Slow Motion"
+      ],
+      whyWeShoot: "Akash's primary workhorse for brand anthems, weddings, and commercial TVCs—delivering rich organic skin tones, compact handheld agility, and dependable high dynamic range.",
+      badge: "Primary Cinema"
     },
-    "Sony FX Cinema Line": {
-      name: "Sony FX6 & FX3 Cinema Line",
-      type: "Full-Frame Dual ISO Cameras",
-      specs: ["Full-Frame 4K 120fps", "Dual Native ISO 800/12800", "Electronic Variable ND Filter", "Fast Hybrid Phase-Detect AF"],
-      whyWeShoot: "Our primary agile B-camera and gimbal system. The ultra-clean low-light sensor allows us to shoot candlelit scenes with zero visible digital noise.",
-      badge: "Gimbal & Low-Light"
+    "Nikon ZR / Z Series": {
+      name: "Nikon ZR / Z Series Hybrid System",
+      type: "Full-Frame Cinema & High-Resolution Stills",
+      specs: [
+        "Full-Frame High-Resolution CMOS Sensor",
+        "10-Bit N-Log & Internal High-Bitrate Cinema Video",
+        "In-Body 5-Axis Sensor-Shift Image Stabilization",
+        "Precision Eye-Tracking & Dynamic Subject Autofocus"
+      ],
+      whyWeShoot: "Unlocks unmatched resolving power and natural color fidelity for hybrid commercial campaigns, editorial portrait stills, and vibrant cinematic b-roll.",
+      badge: "Hybrid Cinema & Stills"
     },
-    "Cooke Anamorphic Lenses": {
-      name: "Cooke Anamorphic /i Prime Set",
-      type: "2x Squeeze Anamorphic Optics",
-      specs: ["2x Squeeze Ratio", "Cooke Look™ Organic Warmth", "Oval Bokeh Out-of-Focus", "Special Flare Coating"],
-      whyWeShoot: "The legendary Cooke Look gives skin tones a natural, creamy texture without harsh digital clinical sharpness, producing our signature cinematic look.",
-      badge: "Optical Flagship"
+    "Drone Air 3 (DJI)": {
+      name: "DJI Air 3 Dual Primary Camera Drone",
+      type: "Dual-Camera 4K HDR Aerial Cinema Drone",
+      specs: [
+        "Dual 1/1.3\" CMOS Medium Tele (70mm) & Wide (24mm) Cameras",
+        "4K/60fps HDR & 4K/100fps Slow Motion Aerials",
+        "10-Bit D-Log M & HLG Profiles for Precise Color Matching",
+        "Omnidirectional Obstacle Sensing with 46-Min Flight Time"
+      ],
+      whyWeShoot: "Flown across heritage architecture, destination wedding venues, and sprawling landscapes, capturing breathtaking establishing flyovers and cinematic parallax tracking.",
+      badge: "Aerial Drone Unit"
     },
-    "DJI Ronin 2 & Inspire 3 Drone": {
-      name: "DJI Inspire 3 Full-Frame 8K Drone",
-      type: "Aerial Cinema System",
-      specs: ["Full-Frame 8K ProRes RAW", "Waypoints Pro Repeatable Shots", "Omnidirectional Obstacle Sensing", "Centimeter-Level RTK Positioning"],
-      whyWeShoot: "Allows seamless cinematic fly-throughs across architectural spaces, Chettinad palace courtyards, and scenic rural landscapes of the Sivaganga district.",
-      badge: "Aerial Unit"
+    "DJI RS 5 Stabilizer": {
+      name: "DJI RS 5 Pro 3-Axis Gimbal Stabilizer",
+      type: "Motorized 3-Axis Cinema Stabilization System",
+      specs: [
+        "Next-Generation 3-Axis Motorized Stabilization Architecture",
+        "Lightweight Carbon Fiber Arms & Automated Axis Locks",
+        "High-Torque Motors Supporting Heavy Cinema Lens Rigs",
+        "Ultra-Smooth Low-Angle Underslung & Dolly Moves"
+      ],
+      whyWeShoot: "Guarantees butter-smooth tracking sequences, walking shots, and dynamic one-shot camera choreography with zero camera shake.",
+      badge: "Gimbal Stabilization"
     },
-    "Aputure Light Storm Array": {
-      name: "Aputure Electro Storm & 1200d Array",
-      type: "High-Output Cinema Lighting",
-      specs: ["1200W Daylight Balanced LED", "CRI 96+, TLCI 98+", "Bowens Mount Optical Modifiers", "Wireless Sidus Link Mesh Control"],
-      whyWeShoot: "Simulates soft afternoon sunlight pouring through windows or dramatic moody chiaroscuro night lighting with complete color temperature precision.",
-      badge: "Gaffer Package"
+    "iPhone 17 Pro & 17": {
+      name: "iPhone 17 Pro & iPhone 17 Cinema Setup",
+      type: "4K ProRes Log & High-End Vertical Video",
+      specs: [
+        "4K ProRes Log Video with Direct External SSD Workflow",
+        "Advanced Cinematic Mode & Instant Focus Transitions",
+        "Native 9:16 Vertical Master Capture for Social Reels & Shorts",
+        "Ultra-Portable Form Factor for Stealth BTS & Candid Stories"
+      ],
+      whyWeShoot: "Essential for instant behind-the-scenes capture, viral high-converting Instagram Reels, and dynamic vertical commercial content with ProRes color depth.",
+      badge: "Vertical & Mobile Cinema"
     },
-    "Sound Devices 833 32-Bit Float": {
-      name: "Sound Devices 833 Production Mixer",
-      type: "Field Audio Recorder",
-      specs: ["6 Ultra-Low Noise Preamps", "32-Bit Float Dynamic Range", "Dante Digital Audio Network", "Internal SSD Recording"],
-      whyWeShoot: "Guarantees zero audio clipping from whisper-quiet vows to loud automotive engine roars, capturing pristine organic soundscapes.",
-      badge: "Master Audio"
+    "Premiere Pro (PR)": {
+      name: "Adobe Premiere Pro (PR) Master Suite",
+      type: "Industry-Standard Professional Video Editor",
+      specs: [
+        "Multi-Camera 4K Timeline Assembly & Narrative Trimming",
+        "Lumetri Deep Color Grading & 3D LUT Color Science",
+        "Essential Sound Audio Mastering & Dialogue Clarity",
+        "Broadcast & Cinema Master File Export Pipelines"
+      ],
+      whyWeShoot: "The core editorial workstation where Akash shapes the master narrative, synchronizes multi-angle footage, and crafts the emotional rhythm of the video.",
+      badge: "Master Post-Production"
     },
-    "DaVinci Resolve Studio": {
-      name: "DaVinci Resolve Studio & Advanced Panel",
-      type: "Color Grading & Finishing Suite",
-      specs: ["ACES 1.3 Color Managed Workflow", "Flanders Scientific 4K HDR Display", "Dolby Vision Mastering", "Custom Color Emulation LUTs"],
-      whyWeShoot: "Every video is graded in a dark, neutrally-balanced color suite in Karaikudi, ensuring colors look rich, consistent, and identical across all screens.",
-      badge: "Color Finishing"
-    },
-    "Dolby Atmos 7.1.4 Mix": {
-      name: "Dolby Atmos 7.1.4 Spatial Sound Suite",
-      type: "Surround Audio Mixing",
-      specs: ["7.1.4 Immersive Speaker Array", "Genelec Smart Active Monitors", "Binaural Headphone Rendering", "EBU R128 Broadcast Loudness"],
-      whyWeShoot: "Transforms sound from flat stereo into a three-dimensional acoustic atmosphere that wraps completely around the audience.",
-      badge: "Immersive Audio"
+    "CapCut Pro": {
+      name: "CapCut Pro Dynamic Social Suite",
+      type: "High-Velocity Vertical & Viral Video Finishing",
+      specs: [
+        "Rapid Kinetic Text Typography & Sound FX Design",
+        "High-Impact Beat Synchronization & Speed Ramping",
+        "Native 9:16 Vertical Video Optimization for Social Media",
+        "Fast-Turnaround Viral Teasers, Reels & TikTok Hooks"
+      ],
+      whyWeShoot: "Powers our fast-delivery social pipeline, turning raw footage into viral-paced, thumb-stopping vertical videos engineered for maximum audience engagement.",
+      badge: "Social Velocity"
     }
   };
 
@@ -162,7 +190,7 @@ export default function AboutSection() {
               <span className="text-xs uppercase tracking-[0.2em] font-semibold text-[#a1a1aa] block">
                 OUR IN-HOUSE PRODUCTION ARSENAL &nbsp;·&nbsp; CLICK TO INSPECT GEAR SPECS
               </span>
-              <span className="hidden sm:inline text-[11px] text-[#F5B726]">8 Verified Cinema Units</span>
+              <span className="hidden sm:inline text-[11px] text-[#F5B726] font-semibold">{gearSpecs.length} Verified Production Units</span>
             </div>
             <div className="flex flex-wrap gap-2.5">
               {gearSpecs.map((gear, i) => (

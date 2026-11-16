@@ -30,8 +30,9 @@ A modern, high-performance web application for **Pixel Production** (**"Your sto
 ---
 
 ### 2. Studio Philosophy & Manifesto (About)
-- Story of Pixel Production's Chettinad heritage roots, optical heritage (Cooke & Atlas anamorphic lenses), tactile audio recording, and ACES DaVinci Resolve color grading.
-- In-house cinema gear specifications with interactive gear inspector.
+- Akash's creative philosophy and Pixel Production's Chettinad heritage roots in Karaikudi.
+- Complete in-house production arsenal: **Sony FX30 Cinema Line**, **Nikon ZR**, **DJI Air 3 Drone**, **DJI RS 5 Gimbal**, **iPhone 17 Pro & 17**, and **Adobe Premiere Pro (PR) + CapCut Pro** post-production suite.
+- Interactive gear inspector modal with technical specs and shoot rationale.
 
 ---
 

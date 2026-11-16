@@ -216,11 +216,11 @@ export const PACKAGES = [
     features: [
       "1x Master Hero Video (2-3 Minutes)",
       "2-Day Production with Full Cinema Crew (DP + Gaffer + Sound)",
-      "RED V-Raptor / ARRI Camera Package with Anamorphic Lenses",
-      "Licensed Aerial 4K Drone Video Cinematography",
-      "Full DaVinci Resolve Master Color Grade",
+      "Sony FX30 & Nikon ZR Cinema Package with DJI RS 5 Gimbal",
+      "DJI Air 3 Dual-Camera 4K Aerial Drone Cinematography",
+      "Full Premiere Pro (PR) Master Edit & Color Grade",
       "Custom Sound Design & Audio Mixing",
-      "3x Tailored Social Media Reels / Video Ad Cuts",
+      "3x Tailored Social Media Reels (iPhone 17 Pro & CapCut)",
       "Behind-the-Scenes High-Res Stills Package"
     ]
   },
@@ -360,8 +360,8 @@ export const FAQS = [
     a: "Pixel Production's core video studio and gear vault are in Karaikudi, Tamil Nadu. However, our team travels worldwide—from European destination weddings to commercial video shoots across Mumbai, Bengaluru, Dubai, and Singapore."
   },
   {
-    q: "What camera gear and lenses do you shoot with?",
-    a: "We shoot primarily on high-end cinema systems including RED Digital Cinema and Sony FX cinema cameras paired with anamorphic and vintage cinema glass for our signature organic, creamy texture."
+    q: "What camera gear and tools do you shoot and edit with?",
+    a: "Pixel Production shoots on a dedicated cinema kit featuring the Sony FX30 Cinema Line camera, Nikon ZR high-resolution hybrid, DJI Air 3 dual-camera drone, and DJI RS 5 gimbal stabilizer, paired with iPhone 17 Pro & 17 for high-end vertical content. All post-production is mastered in Adobe Premiere Pro (PR) and CapCut for cutting-edge cinematic narratives and high-impact social edits."
   },
   {
     q: "How does the production process and task assignment work?",
