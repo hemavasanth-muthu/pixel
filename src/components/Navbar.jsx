@@ -67,6 +67,7 @@ export default function Navbar({ onOpenTaskBoard, onStartProject }) {
               <a
                 key={link.label}
                 href={link.href}
+                onClick={link.label === 'Production Hub' ? onOpenTaskBoard : undefined}
                 className="text-[#d4d4d8] hover:text-[#F5B726] transition-colors relative py-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-[#F5B726] hover:after:w-full after:transition-all after:duration-300"
               >
                 {link.label}
@@ -105,7 +106,10 @@ export default function Navbar({ onOpenTaskBoard, onStartProject }) {
               <a
                 key={link.label}
                 href={link.href}
-                onClick={() => setMobileMenuOpen(false)}
+                onClick={() => {
+                  setMobileMenuOpen(false);
+                  if (link.label === 'Production Hub') onOpenTaskBoard?.();
+                }}
                 className="block py-2.5 text-[#e4e4e7] hover:text-[#F5B726] font-medium text-base border-b border-[#1e1e24] transition-colors"
               >
                 {link.label}

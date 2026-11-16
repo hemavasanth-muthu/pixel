@@ -548,10 +548,10 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
                       Reference Links (Vimeo, YouTube, Behance)
                     </label>
                     <input
-                      type="url"
+                      type="text"
                       value={form.references}
                       onChange={(e) => setForm({ ...form, references: e.target.value })}
-                      placeholder="https://vimeo.com/... or reference links"
+                      placeholder="https://vimeo.com/... or reference links / handles"
                       className="w-full px-4 py-3 rounded-xl bg-[#181820] border border-[#2b2b38] text-white placeholder-[#52525b] text-sm focus:outline-none focus:border-[#F5B726] transition-colors"
                     />
                   </div>
