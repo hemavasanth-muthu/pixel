@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, ChevronDown } from 'lucide-react';
+import { ArrowRight, ChevronDown, MessageCircle } from 'lucide-react';
 import { STUDIO_INFO } from '../data/mockData';
 
 export default function Hero() {
@@ -64,7 +64,7 @@ export default function Hero() {
               className="inline-flex items-center justify-center gap-2.5 px-6 sm:px-7 py-3.5 sm:py-4 rounded-full text-sm sm:text-base font-semibold text-emerald-300 bg-[#121216]/90 hover:bg-[#15231c] border border-emerald-500/40 hover:border-emerald-400 transition-all backdrop-blur-sm group shadow-md"
             >
               <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full border border-emerald-500/40 flex items-center justify-center group-hover:bg-emerald-500/20 transition-colors shrink-0">
-                <span className="text-sm">💬</span>
+                <MessageCircle className="w-4 h-4 text-emerald-400" />
               </div>
               <span>Chat on WhatsApp</span>
             </a>

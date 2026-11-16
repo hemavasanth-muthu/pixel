@@ -36,7 +36,14 @@ export default function Navbar({ onOpenTaskBoard, onStartProject }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-3 group">
+          <a
+            href="#top"
+            onClick={(e) => {
+              e.preventDefault();
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
+            className="flex items-center gap-3 group"
+          >
             <div className="relative h-10 sm:h-11 w-auto flex items-center justify-center shrink-0">
               <img
                 src="/pixel-logo.png"

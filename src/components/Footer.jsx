@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowUp, Mail, Phone, MapPin } from 'lucide-react';
+import { ArrowUp, Mail, Phone, MapPin, MessageCircle } from 'lucide-react';
 import { STUDIO_INFO } from '../data/mockData';
 
 export default function Footer() {
@@ -24,7 +24,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-xs text-[#a1a1aa] leading-relaxed max-w-sm">
-              Your story, told like cinema. Pixel Production crafts commercial videos, brand anthems, and bespoke heirloom wedding films for clients worldwide from Karaikudi.
+              Your story, told like cinema. Pixel Production crafts commercial videos, brand anthems, and bespoke heirloom wedding videos for clients worldwide from Karaikudi.
             </p>
             <div className="flex items-center gap-2 pt-2">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
@@ -59,8 +59,8 @@ export default function Footer() {
               <li><span className="text-[#71717a]">Commercial Ad Videos</span></li>
               <li><span className="text-[#71717a]">Bespoke Wedding Videos</span></li>
               <li><span className="text-[#71717a]">Documentary Video Stories</span></li>
-              <li><span className="text-[#71717a]">ACES Color Grading Suite</span></li>
-              <li><span className="text-[#71717a]">Dolby Atmos Sound Mixing</span></li>
+              <li><span className="text-[#71717a]">Adobe Premiere Pro Suite</span></li>
+              <li><span className="text-[#71717a]">CapCut Viral Social Suite</span></li>
             </ul>
           </div>
 
@@ -87,7 +87,9 @@ export default function Footer() {
                 </a>
               </li>
               <li className="flex items-center gap-2">
-                <span className="w-3.5 h-3.5 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-[10px] font-bold shrink-0">💬</span>
+                <div className="w-4 h-4 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0">
+                  <MessageCircle className="w-2.5 h-2.5" />
+                </div>
                 <a href={STUDIO_INFO.contact.whatsapp} target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:text-emerald-300">
                   WhatsApp Direct
                 </a>

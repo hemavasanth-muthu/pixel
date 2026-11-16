@@ -7,7 +7,7 @@ export default function TestimonialsSection() {
 
   const testimonials = [
     {
-      quote: "Pixel didn't just deliver a brand video—they transformed how investors and customers perceive our company. The anamorphic lens texture and sound design felt like an IMAX documentary.",
+      quote: "Pixel didn't just deliver a brand video—they transformed how investors and customers perceive our company. The 4K cinema texture and sound design felt like an IMAX documentary.",
       author: "Kavitha Sundaram",
       role: "Founder & CEO, Terra Botanicals",
       location: "Bengaluru / Karaikudi",

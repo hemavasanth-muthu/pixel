@@ -1,8 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Award, Globe, Radio, Video, X, CheckCircle, Cpu } from 'lucide-react';
 
 export default function AboutSection() {
   const [selectedGear, setSelectedGear] = useState(null);
+
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') setSelectedGear(null);
+    };
+    if (selectedGear) {
+      window.addEventListener('keydown', handleKeyDown);
+    }
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [selectedGear]);
 
   const pillars = [
     {
@@ -210,8 +220,14 @@ export default function AboutSection() {
 
       {/* GEAR VAULT INSPECTOR MODAL */}
       {selectedGear && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/85 backdrop-blur-md animate-in fade-in duration-200">
-          <div className="relative w-full max-w-xl bg-[#111116] border border-[#2b2b38] rounded-2xl sm:rounded-3xl p-5 sm:p-8 shadow-2xl max-h-[90vh] overflow-y-auto">
+        <div
+          onClick={() => setSelectedGear(null)}
+          className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/85 backdrop-blur-md animate-in fade-in duration-200"
+        >
+          <div
+            onClick={(e) => e.stopPropagation()}
+            className="relative w-full max-w-xl bg-[#111116] border border-[#2b2b38] rounded-2xl sm:rounded-3xl p-5 sm:p-8 shadow-2xl max-h-[90vh] overflow-y-auto"
+          >
             <div className="flex items-center justify-between pb-4 border-b border-[#23232c] mb-6">
               <div className="flex items-center gap-2.5">
                 <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-black bg-[#F5B726] px-2.5 py-0.5 rounded-full">

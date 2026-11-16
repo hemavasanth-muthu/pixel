@@ -33,8 +33,14 @@ export default function VideoPlayerModal({ project, isOpen, onClose, onKickoffSi
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-6 bg-black/90 backdrop-blur-xl animate-in fade-in duration-200">
-      <div className="relative w-full max-w-5xl bg-[#111116] border border-[#272733] rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl flex flex-col max-h-[94vh]">
+    <div
+      onClick={onClose}
+      className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-6 bg-black/90 backdrop-blur-xl animate-in fade-in duration-200"
+    >
+      <div
+        onClick={(e) => e.stopPropagation()}
+        className="relative w-full max-w-5xl bg-[#111116] border border-[#272733] rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl flex flex-col max-h-[94vh]"
+      >
         {/* Top bar */}
         <div className="flex items-center justify-between px-4 sm:px-6 py-3 sm:py-4 bg-[#14141c] border-b border-[#23232c]">
           <div className="flex items-center gap-2 sm:gap-3">

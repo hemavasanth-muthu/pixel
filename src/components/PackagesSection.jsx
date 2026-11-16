@@ -203,8 +203,8 @@ export default function PackagesSection({ onSelectPackage }) {
                         : 'border-[#23232c] bg-[#14141a] text-[#a1a1aa] hover:border-[#383848]'
                     }`}
                   >
-                    <span className="block font-bold">Sony FX Cinema 4K</span>
-                    <span className="text-[10px] text-[#71717a]">G-Master primes, high sensitivity</span>
+                    <span className="block font-bold">Sony FX30 Cinema Line</span>
+                    <span className="text-[10px] text-[#71717a]">Super 35 4K, S-Cinetone, Dual Base ISO</span>
                   </button>
                   <button
                     onClick={() => setCameraPackage('red')}
@@ -214,8 +214,8 @@ export default function PackagesSection({ onSelectPackage }) {
                         : 'border-[#23232c] bg-[#14141a] text-[#a1a1aa] hover:border-[#383848]'
                     }`}
                   >
-                    <span className="block font-bold">RED 8K + Cooke Anamorphic</span>
-                    <span className="text-[10px] text-[#71717a]">Organic cinema bokeh &amp; 2.39:1 widescreen</span>
+                    <span className="block font-bold">Sony FX30 + Nikon ZR Dual Rig</span>
+                    <span className="text-[10px] text-[#71717a]">Dual cinema bodies with DJI RS 5 Gimbal</span>
                   </button>
                 </div>
               </div>
@@ -227,10 +227,10 @@ export default function PackagesSection({ onSelectPackage }) {
                 </label>
                 <div className="space-y-2">
                   {[
-                    { key: 'drone', label: '4K Drone Aerials', price: '+₹20k / $300' },
-                    { key: 'customScore', label: 'Custom Music Score', price: '+₹25k / $350' },
-                    { key: 'verticalCuts', label: '3x Social 9:16 Cuts', price: '+₹15k / $200' },
-                    { key: 'rushDelivery', label: '7-Day Rush Delivery', price: '+₹30k / $450' }
+                    { key: 'drone', label: 'DJI Air 3 4K Drone Aerials', price: '+₹20k / $300' },
+                    { key: 'customScore', label: 'Custom Music Score & Sound Design', price: '+₹25k / $350' },
+                    { key: 'verticalCuts', label: '3x iPhone 17 Pro / CapCut Reels', price: '+₹15k / $200' },
+                    { key: 'rushDelivery', label: '7-Day Rush Post-Production', price: '+₹30k / $450' }
                   ].map((ad) => (
                     <button
                       key={ad.key}

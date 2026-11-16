@@ -23,7 +23,8 @@ import {
   ListTodo,
   Volume2,
   VolumeX,
-  Layers
+  Layers,
+  X
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { CREW_MEMBERS, INITIAL_TASKS, PIPELINE_STAGES, STUDIO_INFO } from '../data/mockData';
@@ -58,8 +59,8 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
         return parsed.map((t) => ({
           ...t,
           stage: t.stage === 'Filming' ? 'Video Shoot' : t.stage,
-          title: typeof t.title === 'string' ? t.title.replace(/\bFilm\b/g, 'Video').replace(/\bfilm\b/g, 'video') : t.title,
-          description: typeof t.description === 'string' ? t.description.replace(/\bFilm\b/g, 'Video').replace(/\bfilm\b/g, 'video') : t.description
+          title: typeof t.title === 'string' ? t.title.replace(/\bArun Kumar\b/g, 'Akash').replace(/\bFilm\b/g, 'Video').replace(/\bfilm\b/g, 'video') : t.title,
+          description: typeof t.description === 'string' ? t.description.replace(/\bArun Kumar\b/g, 'Akash').replace(/\bFilm\b/g, 'Video').replace(/\bfilm\b/g, 'video') : t.description
         }));
       }
       return INITIAL_TASKS;
@@ -1020,8 +1021,14 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
 
         {/* MODAL: ADD / ASSIGN NEW TASK */}
         {isAddTaskModalOpen && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/85 backdrop-blur-md animate-in fade-in duration-200">
-            <div className="relative w-full max-w-xl bg-[#121217] border border-[#2b2b38] rounded-2xl sm:rounded-3xl p-5 sm:p-8 shadow-2xl max-h-[90vh] overflow-y-auto">
+          <div
+            onClick={() => setIsAddTaskModalOpen(false)}
+            className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/85 backdrop-blur-md animate-in fade-in duration-200"
+          >
+            <div
+              onClick={(e) => e.stopPropagation()}
+              className="relative w-full max-w-xl bg-[#121217] border border-[#2b2b38] rounded-2xl sm:rounded-3xl p-5 sm:p-8 shadow-2xl max-h-[90vh] overflow-y-auto"
+            >
               <div className="flex items-center justify-between pb-4 border-b border-[#23232c] mb-6">
                 <div className="flex items-center gap-2.5">
                   <Kanban className="w-5 h-5 text-[#F5B726]" />
@@ -1030,8 +1037,9 @@ export default function ProjectAndTaskHub({ prefilledData, activeTabOverride }) 
                 <button
                   onClick={() => setIsAddTaskModalOpen(false)}
                   className="p-1.5 rounded-full text-[#a1a1aa] hover:text-white"
+                  aria-label="Close Modal"
                 >
-                  ✕
+                  <X className="w-5 h-5" />
                 </button>
               </div>
 

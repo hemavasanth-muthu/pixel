@@ -19,13 +19,13 @@ export default function ProcessSection() {
       number: "03",
       icon: Clapperboard,
       title: "Principal Photography",
-      description: "On-set production with our tight-knit crew, RED/ARRI digital cinema cameras, anamorphic glass, professional gaffers, and 32-bit float audio capture."
+      description: "On-set production with our tight-knit crew, Sony FX30 & Nikon ZR cinema bodies, DJI RS 5 gimbal, and DJI Air 3 aerial drone."
     },
     {
       number: "04",
       icon: Sliders,
       title: "Post-Production & Sound Design",
-      description: "Rhythmic offline editing, dialogue cleanup, tactile sound design, original composition scoring, and Hollywood-standard ACES color grading."
+      description: "Master editing in Adobe Premiere Pro (PR) and CapCut, tactile sound design, dialogue enhancement, and precision color grading."
     },
     {
       number: "05",
